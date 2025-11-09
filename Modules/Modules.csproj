@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Modules</RootNamespace>
+    <AssemblyName>Modules</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="01.Protocol\Base\PacketBase.cs" />
+    <Compile Include="02.Parsers\Base\ParserParamBase.cs" />
+    <Compile Include="02.Parsers\Context\ParserContext.cs" />
+    <Compile Include="02.Parsers\Factory\FrameParserFacotry.cs" />
+    <Compile Include="02.Parsers\FrameSchemas\XGTFrameSchema.cs" />
+    <Compile Include="02.Parsers\Params\XGTParserParam.cs" />
+    <Compile Include="02.Parsers\Type\FrameSchemaParser.cs" />
+    <Compile Include="02.Parsers\MetaField\FrameFieldInfo.cs" />
+    <Compile Include="02.Parsers\MetaField\FrameSchema.cs" />
+    <Compile Include="02.Parsers\Base\IFrameParserBase.cs" />
+    <Compile Include="02.Parsers\Type\IFrameParser.cs" />
+    <Compile Include="02.Parsers\Type\MelSecFrameParser.cs" />
+    <Compile Include="02.Parsers\Type\XGTFrameParser.cs" />
+    <Compile Include="03.Packet\Base\PacketBase.cs" />
+    <Compile Include="03.Packet\MelSecPacket.cs" />
+    <Compile Include="03.Packet\XGTPacket.cs" />
+    <Compile Include="00.Communication\Connection\Base\ConnectionBase.cs" />
+    <Compile Include="00.Communication\Connection\Serial232Connection.cs" />
+    <Compile Include="00.Communication\Connection\Strategies\ICommunicationConnectionStrategy.cs" />
+    <Compile Include="00.Communication\Connection\Strategies\Serial232ConnectionStrategy.cs" />
+    <Compile Include="00.Communication\Connection\Strategies\TcpClientConnectionStrategy.cs" />
+    <Compile Include="00.Communication\Connection\TCPClientConnection.cs" />
+    <Compile Include="00.Communication\Context\ComunicationContext.cs" />
+    <Compile Include="00.Communication\Factory\CommunicationFactory.cs" />
+    <Compile Include="ADO\DataBase\SqlExecutor.cs" />
+    <Compile Include="ADO\Parser\DMLParser.cs" />
+    <Compile Include="ADO\SQLCachedManager.cs" />
+    <Compile Include="Base\DeviceBase.cs" />
+    <Compile Include="Devices\PLCDevice.cs" />
+    <Compile Include="Helper\BitHelper.cs" />
+    <Compile Include="Helper\CollectionHelper.cs" />
+    <Compile Include="00.Communication\Intefaces\ICommunicationConnection.cs" />
+    <Compile Include="00.Communication\Intefaces\ICommunicationReceiver.cs" />
+    <Compile Include="00.Communication\Intefaces\ICommunicationSender.cs" />
+    <Compile Include="00.Communication\Intefaces\IDIFuctionInstance.cs" />
+    <Compile Include="00.Communication\Params\CommParamBase.cs" />
+    <Compile Include="00.Communication\Params\SerialParams.cs" />
+    <Compile Include="00.Communication\Params\SocketParams.cs" />
+    <Compile Include="00.Communication\Receiver\Base\ReceiverBase.cs" />
+    <Compile Include="00.Communication\Receiver\Serial232Receiver.cs" />
+    <Compile Include="00.Communication\Receiver\Strategies\ICommunicationReceiverStrategy.cs" />
+    <Compile Include="00.Communication\Receiver\Strategies\Serial232ReceiverStrategy.cs" />
+    <Compile Include="00.Communication\Receiver\Strategies\TcpClientReceiverStrategy.cs" />
+    <Compile Include="00.Communication\Receiver\TCPClientReceiver.cs" />
+    <Compile Include="00.Communication\Sender\Base\SenderBase.cs" />
+    <Compile Include="00.Communication\Sender\Serial232Sender.cs" />
+    <Compile Include="00.Communication\Sender\Strategies\ICommunicationSenderStrategy.cs" />
+    <Compile Include="00.Communication\Sender\Strategies\SerialSenderStrategy.cs" />
+    <Compile Include="00.Communication\Sender\Strategies\TcpClientSenderStrategy.cs" />
+    <Compile Include="00.Communication\Sender\TCPClientSender.cs" />
+    <Compile Include="00.Communication\Type\Serial232Type.cs" />
+    <Compile Include="00.Communication\Type\Strategies\ICommunicationTypeStrategy.cs" />
+    <Compile Include="00.Communication\Type\Strategies\SerialTypeStrategy.cs" />
+    <Compile Include="00.Communication\Type\Strategies\TcpClientTypeStrategy.cs" />
+    <Compile Include="00.Communication\Type\TCPClientSocketType.cs" />
+    <Compile Include="00.Communication\Type\TypeBase.cs" />
+    <Compile Include="Extensions\CpuTypeExtension.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Attributes\OrderByAttribute.cs" />
+    <Compile Include="01.Protocol\Base\ProtocolParamBase.cs" />
+    <Compile Include="01.Protocol\Context\ProtocolContext.cs" />
+    <Compile Include="01.Protocol\Facotrys\ProtocolFactory.cs" />
+    <Compile Include="01.Protocol\XGT\Packet\CommandFormat\BlockCountPacketConverter.cs" />
+    <Compile Include="01.Protocol\XGT\Packet\CommandFormat\CommandTypePacketMapper.cs" />
+    <Compile Include="01.Protocol\XGT\Packet\CommandFormat\DataTypePacketMapper.cs" />
+    <Compile Include="01.Protocol\XGT\Packet\CommandFormat\VariableLengthPacketConverter.cs" />
+    <Compile Include="01.Protocol\XGT\Packet\CommandFormat\VariableNameConverter.cs" />
+    <Compile Include="01.Protocol\XGT\Packet\CompanyHeader\Mapper\CompanyIDs\CompanyIDPacketBuilder.cs" />
+    <Compile Include="01.Protocol\XGT\Packet\CompanyHeader\Mapper\CPUInfors\CpuInforPacketMapper.cs" />
+    <Compile Include="01.Protocol\XGT\Packet\CompanyHeader\Mapper\EthernetPositions\EthernetPositionPacketMapper.cs" />
+    <Compile Include="01.Protocol\XGT\Packet\CommonPacket\NoneDataPacketBuilder.cs" />
+    <Compile Include="01.Protocol\XGT\Packet\CompanyHeader\Mapper\PLCInfor\ParameterPacketBuilder.cs" />
+    <Compile Include="01.Protocol\XGT\Packet\CompanyHeader\Mapper\PLCInfor\Mapper\PLCInfoHighByteMapper.cs" />
+    <Compile Include="01.Protocol\XGT\Packet\CompanyHeader\Mapper\PLCInfor\Mapper\PLCInforLowMapper.cs" />
+    <Compile Include="01.Protocol\XGT\Packet\CompanyHeader\Mapper\SourceOfFrame\SourceOfFramePacketMapper.cs" />
+    <Compile Include="01.Protocol\XGT\Packet\IPacketSectionBuilder.cs" />
+    <Compile Include="01.Protocol\XGT\Packet\XGTPacketBuild.cs" />
+    <Compile Include="01.Protocol\XGT\Params\CommandFormat\CommandParam.cs" />
+    <Compile Include="01.Protocol\XGT\Params\CommandFormat\Data\XgtDataParam.cs" />
+    <Compile Include="01.Protocol\XGT\Params\CompanyHeader\CompanyHeaderParam.cs" />
+    <Compile Include="01.Protocol\XGT\Params\CompanyHeader\EthernetPosition.cs" />
+    <Compile Include="01.Protocol\XGT\Params\CompanyHeader\PLCInfoParam.cs" />
+    <Compile Include="01.Protocol\XGT\Params\Enums\EnumsPLCInfor.cs" />
+    <Compile Include="01.Protocol\XGT\Params\XGTParams.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

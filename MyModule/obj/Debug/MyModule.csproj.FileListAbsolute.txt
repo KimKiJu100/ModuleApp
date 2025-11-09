@@ -1,0 +1,14 @@
+D:\test\Module\MyModule\MyModule\bin\Debug\MyModule.exe.config
+D:\test\Module\MyModule\MyModule\bin\Debug\MyModule.exe
+D:\test\Module\MyModule\MyModule\bin\Debug\MyModule.pdb
+D:\test\Module\MyModule\MyModule\obj\Debug\MyModule.csproj.AssemblyReference.cache
+D:\test\Module\MyModule\MyModule\obj\Debug\MyModule.Properties.Resources.resources
+D:\test\Module\MyModule\MyModule\obj\Debug\MyModule.csproj.GenerateResource.cache
+D:\test\Module\MyModule\MyModule\obj\Debug\MyModule.csproj.CoreCompileInputs.cache
+D:\test\Module\MyModule\MyModule\obj\Debug\MyModule.exe
+D:\test\Module\MyModule\MyModule\obj\Debug\MyModule.pdb
+D:\test\Module\MyModule\MyModule\bin\Debug\Modules.dll
+D:\test\Module\MyModule\MyModule\bin\Debug\Modules.pdb
+D:\test\Module\MyModule\MyModule\obj\Debug\MyModule.PLC_Test.resources
+D:\test\Module\MyModule\MyModule\obj\Debug\MyModule.csproj.CopyComplete
+D:\test\Module\MyModule\MyModule\obj\Debug\MyModule.MMasterClientTest.resources

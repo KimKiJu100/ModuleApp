@@ -1,0 +1,6 @@
+D:\test\Module\MyModule\Editor.Service.Interfaces\bin\Debug\Editor.Service.Interfaces.dll
+D:\test\Module\MyModule\Editor.Service.Interfaces\bin\Debug\Editor.Service.Interfaces.pdb
+D:\test\Module\MyModule\Editor.Service.Interfaces\obj\Debug\Editor.Service.Interfaces.csproj.AssemblyReference.cache
+D:\test\Module\MyModule\Editor.Service.Interfaces\obj\Debug\Editor.Service.Interfaces.csproj.CoreCompileInputs.cache
+D:\test\Module\MyModule\Editor.Service.Interfaces\obj\Debug\Editor.Service.Interfaces.dll
+D:\test\Module\MyModule\Editor.Service.Interfaces\obj\Debug\Editor.Service.Interfaces.pdb

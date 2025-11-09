@@ -1,0 +1,9 @@
+D:\test\Module\MyModule\Editor.Service\bin\Debug\Editor.Service.dll
+D:\test\Module\MyModule\Editor.Service\bin\Debug\Editor.Service.pdb
+D:\test\Module\MyModule\Editor.Service\bin\Debug\Editor.Service.Interfaces.dll
+D:\test\Module\MyModule\Editor.Service\bin\Debug\Editor.Service.Interfaces.pdb
+D:\test\Module\MyModule\Editor.Service\obj\Debug\Editor.Service.csproj.AssemblyReference.cache
+D:\test\Module\MyModule\Editor.Service\obj\Debug\Editor.Service.csproj.CoreCompileInputs.cache
+D:\test\Module\MyModule\Editor.Service\obj\Debug\Editor.Service.csproj.CopyComplete
+D:\test\Module\MyModule\Editor.Service\obj\Debug\Editor.Service.dll
+D:\test\Module\MyModule\Editor.Service\obj\Debug\Editor.Service.pdb

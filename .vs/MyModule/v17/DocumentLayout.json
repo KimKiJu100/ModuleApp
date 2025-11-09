@@ -1,0 +1,216 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\test\\Module\\MyModule\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05100949-EF69-4529-8AA8-AB56CB1935DB}|ModuleEditor\\ModuleEditor.csproj|d:\\test\\module\\mymodule\\moduleeditor\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{05100949-EF69-4529-8AA8-AB56CB1935DB}|ModuleEditor\\ModuleEditor.csproj|solutionrelative:moduleeditor\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05100949-EF69-4529-8AA8-AB56CB1935DB}|ModuleEditor\\ModuleEditor.csproj|d:\\test\\module\\mymodule\\moduleeditor\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{05100949-EF69-4529-8AA8-AB56CB1935DB}|ModuleEditor\\ModuleEditor.csproj|solutionrelative:moduleeditor\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0164494-8F8A-484E-A901-CD24C5D8020E}|MyModule\\MyModule.csproj|D:\\test\\Module\\MyModule\\mymodule\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0164494-8F8A-484E-A901-CD24C5D8020E}|MyModule\\MyModule.csproj|solutionrelative:mymodule\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|D:\\test\\Module\\MyModule\\modules\\helper\\collectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|solutionrelative:modules\\helper\\collectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|D:\\test\\Module\\MyModule\\modules\\helper\\bithelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|solutionrelative:modules\\helper\\bithelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|D:\\test\\Module\\MyModule\\modules\\extensions\\cputypeextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|solutionrelative:modules\\extensions\\cputypeextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|D:\\test\\Module\\MyModule\\modules\\devices\\plcdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|solutionrelative:modules\\devices\\plcdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|D:\\test\\Module\\MyModule\\modules\\base\\devicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|solutionrelative:modules\\base\\devicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|D:\\test\\Module\\MyModule\\modules\\attributes\\orderbyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|solutionrelative:modules\\attributes\\orderbyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|D:\\test\\Module\\MyModule\\modules\\ado\\sqlcachedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|solutionrelative:modules\\ado\\sqlcachedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|D:\\test\\Module\\MyModule\\modules\\ado\\parser\\dmlparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|solutionrelative:modules\\ado\\parser\\dmlparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|D:\\test\\Module\\MyModule\\modules\\ado\\database\\sqlexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|solutionrelative:modules\\ado\\database\\sqlexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\test\\Module\\MyModule\\ModuleEditor\\App.xaml",
+              "RelativeDocumentMoniker": "ModuleEditor\\App.xaml",
+              "ToolTip": "D:\\test\\Module\\MyModule\\ModuleEditor\\App.xaml",
+              "RelativeToolTip": "ModuleEditor\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-04T22:52:16.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\test\\Module\\MyModule\\ModuleEditor\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ModuleEditor\\Views\\MainWindow.xaml",
+              "ToolTip": "D:\\test\\Module\\MyModule\\ModuleEditor\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "ModuleEditor\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-04T22:51:44.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\test\\Module\\MyModule\\MyModule\\Program.cs",
+              "RelativeDocumentMoniker": "MyModule\\Program.cs",
+              "ToolTip": "D:\\test\\Module\\MyModule\\MyModule\\Program.cs",
+              "RelativeToolTip": "MyModule\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:43:22.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CollectionHelper.cs",
+              "DocumentMoniker": "D:\\test\\Module\\MyModule\\Modules\\Helper\\CollectionHelper.cs",
+              "RelativeDocumentMoniker": "Modules\\Helper\\CollectionHelper.cs",
+              "ToolTip": "D:\\test\\Module\\MyModule\\Modules\\Helper\\CollectionHelper.cs",
+              "RelativeToolTip": "Modules\\Helper\\CollectionHelper.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:43:12.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BitHelper.cs",
+              "DocumentMoniker": "D:\\test\\Module\\MyModule\\Modules\\Helper\\BitHelper.cs",
+              "RelativeDocumentMoniker": "Modules\\Helper\\BitHelper.cs",
+              "ToolTip": "D:\\test\\Module\\MyModule\\Modules\\Helper\\BitHelper.cs",
+              "RelativeToolTip": "Modules\\Helper\\BitHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:43:10.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CpuTypeExtension.cs",
+              "DocumentMoniker": "D:\\test\\Module\\MyModule\\Modules\\Extensions\\CpuTypeExtension.cs",
+              "RelativeDocumentMoniker": "Modules\\Extensions\\CpuTypeExtension.cs",
+              "ToolTip": "D:\\test\\Module\\MyModule\\Modules\\Extensions\\CpuTypeExtension.cs",
+              "RelativeToolTip": "Modules\\Extensions\\CpuTypeExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:43:06.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PLCDevice.cs",
+              "DocumentMoniker": "D:\\test\\Module\\MyModule\\Modules\\Devices\\PLCDevice.cs",
+              "RelativeDocumentMoniker": "Modules\\Devices\\PLCDevice.cs",
+              "ToolTip": "D:\\test\\Module\\MyModule\\Modules\\Devices\\PLCDevice.cs",
+              "RelativeToolTip": "Modules\\Devices\\PLCDevice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:42:59.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeviceBase.cs",
+              "DocumentMoniker": "D:\\test\\Module\\MyModule\\Modules\\Base\\DeviceBase.cs",
+              "RelativeDocumentMoniker": "Modules\\Base\\DeviceBase.cs",
+              "ToolTip": "D:\\test\\Module\\MyModule\\Modules\\Base\\DeviceBase.cs",
+              "RelativeToolTip": "Modules\\Base\\DeviceBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:42:51.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderByAttribute.cs",
+              "DocumentMoniker": "D:\\test\\Module\\MyModule\\Modules\\Attributes\\OrderByAttribute.cs",
+              "RelativeDocumentMoniker": "Modules\\Attributes\\OrderByAttribute.cs",
+              "ToolTip": "D:\\test\\Module\\MyModule\\Modules\\Attributes\\OrderByAttribute.cs",
+              "RelativeToolTip": "Modules\\Attributes\\OrderByAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:42:46.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SQLCachedManager.cs",
+              "DocumentMoniker": "D:\\test\\Module\\MyModule\\Modules\\ADO\\SQLCachedManager.cs",
+              "RelativeDocumentMoniker": "Modules\\ADO\\SQLCachedManager.cs",
+              "ToolTip": "D:\\test\\Module\\MyModule\\Modules\\ADO\\SQLCachedManager.cs",
+              "RelativeToolTip": "Modules\\ADO\\SQLCachedManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:42:37.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DMLParser.cs",
+              "DocumentMoniker": "D:\\test\\Module\\MyModule\\Modules\\ADO\\Parser\\DMLParser.cs",
+              "RelativeDocumentMoniker": "Modules\\ADO\\Parser\\DMLParser.cs",
+              "ToolTip": "D:\\test\\Module\\MyModule\\Modules\\ADO\\Parser\\DMLParser.cs",
+              "RelativeToolTip": "Modules\\ADO\\Parser\\DMLParser.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:42:22.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SqlExecutor.cs",
+              "DocumentMoniker": "D:\\test\\Module\\MyModule\\Modules\\ADO\\DataBase\\SqlExecutor.cs",
+              "RelativeDocumentMoniker": "Modules\\ADO\\DataBase\\SqlExecutor.cs",
+              "ToolTip": "D:\\test\\Module\\MyModule\\Modules\\ADO\\DataBase\\SqlExecutor.cs",
+              "RelativeToolTip": "Modules\\ADO\\DataBase\\SqlExecutor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:42:13.562Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

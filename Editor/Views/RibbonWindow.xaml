@@ -1,0 +1,35 @@
+﻿<dx:ThemedWindow
+    x:Class="Editor.Views.RibbonWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+    xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon"
+    xmlns:prism ="http://prismlibrary.com/"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    prism:ViewModelLocator.AutoWireViewModel="True"
+    Title="RibbonWindow" Height="800" Width="1000">
+    
+    <DockPanel LastChildFill="True">
+        <dxr:RibbonControl DockPanel.Dock="Top" RibbonStyle="Office2019">
+            <dxr:RibbonControl.ToolbarItems>
+            </dxr:RibbonControl.ToolbarItems>
+            <dxr:RibbonDefaultPageCategory>
+                <dxr:RibbonPage Caption="Wizard Editor" DataContext="{Binding}">
+                    <dxr:RibbonPageGroup Caption="Wizard Control">
+                        <dxb:BarButtonItem Content="Open Wizard"
+                                RibbonStyle="Large"
+                                LargeGlyph="{dx:DXImage Image=Open_32x32.png}"
+                                Glyph="{dx:DXImage Image=Open_16x16.png}"
+                                Command="{Binding OpenWizardCommand}">
+                        </dxb:BarButtonItem> 
+                    </dxr:RibbonPageGroup>
+                </dxr:RibbonPage>
+            </dxr:RibbonDefaultPageCategory>
+        </dxr:RibbonControl>
+        <dxr:RibbonStatusBarControl DockPanel.Dock="Bottom">
+            <dxr:RibbonStatusBarControl.RightItems>
+            </dxr:RibbonStatusBarControl.RightItems>
+        </dxr:RibbonStatusBarControl>            
+    </DockPanel>
+</dx:ThemedWindow>

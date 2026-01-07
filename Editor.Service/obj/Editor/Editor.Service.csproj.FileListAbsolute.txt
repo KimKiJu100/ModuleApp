@@ -1,0 +1,6 @@
+D:\test\Module\MyModule\Editor.Service\bin\Editor\Editor.Service.dll
+D:\test\Module\MyModule\Editor.Service\bin\Editor\Editor.Service.Interfaces.dll
+D:\test\Module\MyModule\Editor.Service\obj\Editor\Editor.Service.csproj.AssemblyReference.cache
+D:\test\Module\MyModule\Editor.Service\obj\Editor\Editor.Service.csproj.CoreCompileInputs.cache
+D:\test\Module\MyModule\Editor.Service\obj\Editor\Editor.S.FB350147.Up2Date
+D:\test\Module\MyModule\Editor.Service\obj\Editor\Editor.Service.dll

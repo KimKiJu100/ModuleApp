@@ -1,0 +1,12 @@
+D:\test\Module\MyModule\Modules\bin\Debug\Modules.dll
+D:\test\Module\MyModule\Modules\bin\Debug\Modules.pdb
+D:\test\Module\MyModule\Modules\obj\Debug\00.Modules.csproj.AssemblyReference.cache
+D:\test\Module\MyModule\Modules\obj\Debug\00.Modules.csproj.CoreCompileInputs.cache
+D:\test\Module\MyModule\Modules\obj\Debug\Modules.dll
+D:\test\Module\MyModule\Modules\obj\Debug\Modules.pdb
+D:\MyProject\3.MyModeule\Modules\bin\Debug\Modules.dll
+D:\MyProject\3.MyModeule\Modules\bin\Debug\Modules.pdb
+D:\MyProject\3.MyModeule\Modules\obj\Debug\00.Modules.csproj.AssemblyReference.cache
+D:\MyProject\3.MyModeule\Modules\obj\Debug\00.Modules.csproj.CoreCompileInputs.cache
+D:\MyProject\3.MyModeule\Modules\obj\Debug\Modules.dll
+D:\MyProject\3.MyModeule\Modules\obj\Debug\Modules.pdb

@@ -1,0 +1,17 @@
+D:\MyProject\3.MyModeule\App.MVP.NetFramework\bin\Debug\App.MVP.NetFramework.dll
+D:\MyProject\3.MyModeule\App.MVP.NetFramework\bin\Debug\App.MVP.NetFramework.pdb
+D:\MyProject\3.MyModeule\App.MVP.NetFramework\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\MyProject\3.MyModeule\App.MVP.NetFramework\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\MyProject\3.MyModeule\App.MVP.NetFramework\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\MyProject\3.MyModeule\App.MVP.NetFramework\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\MyProject\3.MyModeule\App.MVP.NetFramework\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\MyProject\3.MyModeule\App.MVP.NetFramework\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\MyProject\3.MyModeule\App.MVP.NetFramework\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\MyProject\3.MyModeule\App.MVP.NetFramework\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\MyProject\3.MyModeule\App.MVP.NetFramework\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\MyProject\3.MyModeule\App.MVP.NetFramework\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\MyProject\3.MyModeule\App.MVP.NetFramework\obj\Debug\App.MVP.NetFramework.csproj.AssemblyReference.cache
+D:\MyProject\3.MyModeule\App.MVP.NetFramework\obj\Debug\App.MVP.NetFramework.csproj.CoreCompileInputs.cache
+D:\MyProject\3.MyModeule\App.MVP.NetFramework\obj\Debug\App.MVP..EBF21A6F.Up2Date
+D:\MyProject\3.MyModeule\App.MVP.NetFramework\obj\Debug\App.MVP.NetFramework.dll
+D:\MyProject\3.MyModeule\App.MVP.NetFramework\obj\Debug\App.MVP.NetFramework.pdb

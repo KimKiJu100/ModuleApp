@@ -1,0 +1,974 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MyProject\\3.MyModeule\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{436E54B0-35A8-45D5-9EAB-53A47B626AC8}|App.CoreModules\\App.CoreModules.csproj|d:\\myproject\\3.mymodeule\\app.coremodules\\thread\\actionworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{436E54B0-35A8-45D5-9EAB-53A47B626AC8}|App.CoreModules\\App.CoreModules.csproj|solutionrelative:app.coremodules\\thread\\actionworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{436E54B0-35A8-45D5-9EAB-53A47B626AC8}|App.CoreModules\\App.CoreModules.csproj|D:\\MyProject\\3.MyModeule\\app.coremodules\\thread\\base\\workerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{436E54B0-35A8-45D5-9EAB-53A47B626AC8}|App.CoreModules\\App.CoreModules.csproj|solutionrelative:app.coremodules\\thread\\base\\workerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{436E54B0-35A8-45D5-9EAB-53A47B626AC8}|App.CoreModules\\App.CoreModules.csproj|D:\\MyProject\\3.MyModeule\\app.coremodules\\thread\\conditionworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{436E54B0-35A8-45D5-9EAB-53A47B626AC8}|App.CoreModules\\App.CoreModules.csproj|solutionrelative:app.coremodules\\thread\\conditionworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{436E54B0-35A8-45D5-9EAB-53A47B626AC8}|App.CoreModules\\App.CoreModules.csproj|D:\\MyProject\\3.MyModeule\\app.coremodules\\thread\\workermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{436E54B0-35A8-45D5-9EAB-53A47B626AC8}|App.CoreModules\\App.CoreModules.csproj|solutionrelative:app.coremodules\\thread\\workermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{436E54B0-35A8-45D5-9EAB-53A47B626AC8}|App.CoreModules\\App.CoreModules.csproj|D:\\MyProject\\3.MyModeule\\app.coremodules\\events\\conditionworkereventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{436E54B0-35A8-45D5-9EAB-53A47B626AC8}|App.CoreModules\\App.CoreModules.csproj|solutionrelative:app.coremodules\\events\\conditionworkereventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E44D24-EF75-464F-930E-D9D7FEA8943C}|App.MVP.NetFramework\\App.MVP.NetFramework.csproj|D:\\MyProject\\3.MyModeule\\app.mvp.netframework\\evemts\\custompropertychangedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E44D24-EF75-464F-930E-D9D7FEA8943C}|App.MVP.NetFramework\\App.MVP.NetFramework.csproj|solutionrelative:app.mvp.netframework\\evemts\\custompropertychangedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E44D24-EF75-464F-930E-D9D7FEA8943C}|App.MVP.NetFramework\\App.MVP.NetFramework.csproj|D:\\MyProject\\3.MyModeule\\app.mvp.netframework\\evemts\\arraychangedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E44D24-EF75-464F-930E-D9D7FEA8943C}|App.MVP.NetFramework\\App.MVP.NetFramework.csproj|solutionrelative:app.mvp.netframework\\evemts\\arraychangedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E44D24-EF75-464F-930E-D9D7FEA8943C}|App.MVP.NetFramework\\App.MVP.NetFramework.csproj|D:\\MyProject\\3.MyModeule\\app.mvp.netframework\\presenter\\presenterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E44D24-EF75-464F-930E-D9D7FEA8943C}|App.MVP.NetFramework\\App.MVP.NetFramework.csproj|solutionrelative:app.mvp.netframework\\presenter\\presenterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE2B127-D1C0-49F1-9BA0-3757B4C70A75}|Application.MVP\\App.MVP.csproj|d:\\myproject\\3.mymodeule\\application.mvp\\evemts\\arraychangedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE2B127-D1C0-49F1-9BA0-3757B4C70A75}|Application.MVP\\App.MVP.csproj|solutionrelative:application.mvp\\evemts\\arraychangedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE2B127-D1C0-49F1-9BA0-3757B4C70A75}|Application.MVP\\App.MVP.csproj|d:\\myproject\\3.mymodeule\\application.mvp\\evemts\\custompropertychangedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE2B127-D1C0-49F1-9BA0-3757B4C70A75}|Application.MVP\\App.MVP.csproj|solutionrelative:application.mvp\\evemts\\custompropertychangedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE2B127-D1C0-49F1-9BA0-3757B4C70A75}|Application.MVP\\App.MVP.csproj|d:\\myproject\\3.mymodeule\\application.mvp\\presenter\\presenterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE2B127-D1C0-49F1-9BA0-3757B4C70A75}|Application.MVP\\App.MVP.csproj|solutionrelative:application.mvp\\presenter\\presenterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|D:\\MyProject\\3.MyModeule\\editor\\views\\devmirror.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|solutionrelative:editor\\views\\devmirror.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E44D24-EF75-464F-930E-D9D7FEA8943C}|App.MVP.NetFramework\\App.MVP.NetFramework.csproj|D:\\MyProject\\3.MyModeule\\app.mvp.netframework\\view\\ipresenterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E44D24-EF75-464F-930E-D9D7FEA8943C}|App.MVP.NetFramework\\App.MVP.NetFramework.csproj|solutionrelative:app.mvp.netframework\\view\\ipresenterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE2B127-D1C0-49F1-9BA0-3757B4C70A75}|Application.MVP\\App.MVP.csproj|d:\\myproject\\3.mymodeule\\application.mvp\\view\\ipresenterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE2B127-D1C0-49F1-9BA0-3757B4C70A75}|Application.MVP\\App.MVP.csproj|solutionrelative:application.mvp\\view\\ipresenterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE2B127-D1C0-49F1-9BA0-3757B4C70A75}|Application.MVP\\App.MVP.csproj|d:\\myproject\\3.mymodeule\\application.mvp\\app.mvp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{FAE2B127-D1C0-49F1-9BA0-3757B4C70A75}|Application.MVP\\App.MVP.csproj|solutionrelative:application.mvp\\app.mvp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0164494-8F8A-484E-A901-CD24C5D8020E}|MyModule\\MyModule.csproj|D:\\MyProject\\3.MyModeule\\mymodule\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0164494-8F8A-484E-A901-CD24C5D8020E}|MyModule\\MyModule.csproj|solutionrelative:mymodule\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|D:\\MyProject\\3.MyModeule\\editor\\views\\ribbonwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|solutionrelative:editor\\views\\ribbonwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\ado\\sqlcachedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|solutionrelative:modules\\ado\\sqlcachedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\ado\\sqlcachedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|solutionrelative:modules\\ado\\sqlcachedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\ado\\parser\\dmlparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|solutionrelative:modules\\ado\\parser\\dmlparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\ado\\parser\\dmlparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|solutionrelative:modules\\ado\\parser\\dmlparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\ado\\database\\sqlexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|solutionrelative:modules\\ado\\database\\sqlexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\ado\\database\\sqlexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|solutionrelative:modules\\ado\\database\\sqlexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144670CB-6396-488C-A76D-2E03A3B69E78}|DeviceWizard\\DeviceWizard.csproj|D:\\MyProject\\3.MyModeule\\devicewizard\\views\\step2view.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{144670CB-6396-488C-A76D-2E03A3B69E78}|DeviceWizard\\DeviceWizard.csproj|solutionrelative:devicewizard\\views\\step2view.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144670CB-6396-488C-A76D-2E03A3B69E78}|DeviceWizard\\DeviceWizard.csproj|D:\\MyProject\\3.MyModeule\\devicewizard\\views\\mainwizardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{144670CB-6396-488C-A76D-2E03A3B69E78}|DeviceWizard\\DeviceWizard.csproj|solutionrelative:devicewizard\\views\\mainwizardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144670CB-6396-488C-A76D-2E03A3B69E78}|DeviceWizard\\DeviceWizard.csproj|D:\\MyProject\\3.MyModeule\\devicewizard\\views\\step1view.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{144670CB-6396-488C-A76D-2E03A3B69E78}|DeviceWizard\\DeviceWizard.csproj|solutionrelative:devicewizard\\views\\step1view.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691FB066-DCB0-4ED5-A508-71DBE70D0835}|Editor.Core\\Editor.Core.csproj|D:\\MyProject\\3.MyModeule\\editor.core\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{691FB066-DCB0-4ED5-A508-71DBE70D0835}|Editor.Core\\Editor.Core.csproj|solutionrelative:editor.core\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691FB066-DCB0-4ED5-A508-71DBE70D0835}|Editor.Core\\Editor.Core.csproj|D:\\MyProject\\3.MyModeule\\editor.core\\regionnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{691FB066-DCB0-4ED5-A508-71DBE70D0835}|Editor.Core\\Editor.Core.csproj|solutionrelative:editor.core\\regionnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691FB066-DCB0-4ED5-A508-71DBE70D0835}|Editor.Core\\Editor.Core.csproj|D:\\MyProject\\3.MyModeule\\editor.core\\applicationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{691FB066-DCB0-4ED5-A508-71DBE70D0835}|Editor.Core\\Editor.Core.csproj|solutionrelative:editor.core\\applicationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691FB066-DCB0-4ED5-A508-71DBE70D0835}|Editor.Core\\Editor.Core.csproj|D:\\MyProject\\3.MyModeule\\editor.core\\isupportdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{691FB066-DCB0-4ED5-A508-71DBE70D0835}|Editor.Core\\Editor.Core.csproj|solutionrelative:editor.core\\isupportdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|D:\\MyProject\\3.MyModeule\\editor\\views\\ribbonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|solutionrelative:editor\\views\\ribbonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0164494-8F8A-484E-A901-CD24C5D8020E}|MyModule\\MyModule.csproj|D:\\MyProject\\3.MyModeule\\mymodule\\mmasterclienttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0164494-8F8A-484E-A901-CD24C5D8020E}|MyModule\\MyModule.csproj|solutionrelative:mymodule\\mmasterclienttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|D:\\MyProject\\3.MyModeule\\editor\\pagegroup\\plctab.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|solutionrelative:editor\\pagegroup\\plctab.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|D:\\MyProject\\3.MyModeule\\editor\\pagegroup\\plctab.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|solutionrelative:editor\\pagegroup\\plctab.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|D:\\MyProject\\3.MyModeule\\editor\\pagegroup\\motiontab.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|solutionrelative:editor\\pagegroup\\motiontab.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|D:\\MyProject\\3.MyModeule\\editor\\pagegroup\\devicetab.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|solutionrelative:editor\\pagegroup\\devicetab.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|D:\\MyProject\\3.MyModeule\\editor\\pagegroup\\motiontab.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|solutionrelative:editor\\pagegroup\\motiontab.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|D:\\MyProject\\3.MyModeule\\editor\\viewmodels\\ribbonwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|solutionrelative:editor\\viewmodels\\ribbonwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\02.parsers\\frameschemas\\xgtframeschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|solutionrelative:modules\\02.parsers\\frameschemas\\xgtframeschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|D:\\MyProject\\3.MyModeule\\editor\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|solutionrelative:editor\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MyProject\\3.MyModeule\\Editor\\obj\\Debug\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Editor\\obj\\Debug\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|D:\\MyProject\\3.MyModeule\\editor\\core\\adapters\\devribboncontrolregionadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|solutionrelative:editor\\core\\adapters\\devribboncontrolregionadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|D:\\MyProject\\3.MyModeule\\editor\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0AB8A3BB-26BE-4FD8-BEE8-D903AE9524D1}|Editor\\Editor.csproj|solutionrelative:editor\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144670CB-6396-488C-A76D-2E03A3B69E78}|DeviceWizard\\DeviceWizard.csproj|D:\\MyProject\\3.MyModeule\\devicewizard\\devicewizardmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144670CB-6396-488C-A76D-2E03A3B69E78}|DeviceWizard\\DeviceWizard.csproj|solutionrelative:devicewizard\\devicewizardmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\devices\\motors\\states\\motionstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|solutionrelative:modules\\devices\\motors\\states\\motionstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\devices\\motors\\states\\axisstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|solutionrelative:modules\\devices\\motors\\states\\axisstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\devices\\motors\\imotionaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|solutionrelative:modules\\devices\\motors\\imotionaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\devices\\motors\\ajin\\pci\\ajinpcin804.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|solutionrelative:modules\\devices\\motors\\ajin\\pci\\ajinpcin804.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\devices\\motors\\ajin\\pci\\ajinpcin404.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|solutionrelative:modules\\devices\\motors\\ajin\\pci\\ajinpcin404.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\devices\\motors\\ajin\\pci\\ajinpcin204.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|solutionrelative:modules\\devices\\motors\\ajin\\pci\\ajinpcin204.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\devices\\motors\\imotioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|solutionrelative:modules\\devices\\motors\\imotioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\devices\\plcdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|solutionrelative:modules\\devices\\plcdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\devices\\plcdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|solutionrelative:modules\\devices\\plcdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\devices\\motors\\imotionstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|solutionrelative:modules\\devices\\motors\\imotionstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\devices\\motors\\imotionalarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\00.Modules.csproj|solutionrelative:modules\\devices\\motors\\imotionalarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\helper\\collectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|solutionrelative:modules\\helper\\collectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\helper\\bithelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|solutionrelative:modules\\helper\\bithelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\extensions\\cputypeextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|solutionrelative:modules\\extensions\\cputypeextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\base\\devicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|solutionrelative:modules\\base\\devicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|D:\\MyProject\\3.MyModeule\\modules\\attributes\\orderbyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F8DA6D-6FAE-44F3-A397-413840B25EC0}|Modules\\Modules.csproj|solutionrelative:modules\\attributes\\orderbyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorkerBase.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\App.CoreModules\\Thread\\Base\\WorkerBase.cs",
+              "RelativeDocumentMoniker": "App.CoreModules\\Thread\\Base\\WorkerBase.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\App.CoreModules\\Thread\\Base\\WorkerBase.cs",
+              "RelativeToolTip": "App.CoreModules\\Thread\\Base\\WorkerBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T07:11:26.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ActionWorker.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\App.CoreModules\\Thread\\ActionWorker.cs",
+              "RelativeDocumentMoniker": "App.CoreModules\\Thread\\ActionWorker.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\App.CoreModules\\Thread\\ActionWorker.cs",
+              "RelativeToolTip": "App.CoreModules\\Thread\\ActionWorker.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T06:51:06.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomPropertyChangedEventArgs.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\App.MVP.NetFramework\\Evemts\\CustomPropertyChangedEventArgs.cs",
+              "RelativeDocumentMoniker": "App.MVP.NetFramework\\Evemts\\CustomPropertyChangedEventArgs.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\App.MVP.NetFramework\\Evemts\\CustomPropertyChangedEventArgs.cs",
+              "RelativeToolTip": "App.MVP.NetFramework\\Evemts\\CustomPropertyChangedEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T06:20:10.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ArrayChangedEventArgs.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\App.MVP.NetFramework\\Evemts\\ArrayChangedEventArgs.cs",
+              "RelativeDocumentMoniker": "App.MVP.NetFramework\\Evemts\\ArrayChangedEventArgs.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\App.MVP.NetFramework\\Evemts\\ArrayChangedEventArgs.cs",
+              "RelativeToolTip": "App.MVP.NetFramework\\Evemts\\ArrayChangedEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T06:19:58.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConditionWorkerEventArgs.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\App.CoreModules\\Events\\ConditionWorkerEventArgs.cs",
+              "RelativeDocumentMoniker": "App.CoreModules\\Events\\ConditionWorkerEventArgs.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\App.CoreModules\\Events\\ConditionWorkerEventArgs.cs",
+              "RelativeToolTip": "App.CoreModules\\Events\\ConditionWorkerEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T06:17:34.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PresenterBase.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\App.MVP.NetFramework\\Presenter\\PresenterBase.cs",
+              "RelativeDocumentMoniker": "App.MVP.NetFramework\\Presenter\\PresenterBase.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\App.MVP.NetFramework\\Presenter\\PresenterBase.cs",
+              "RelativeToolTip": "App.MVP.NetFramework\\Presenter\\PresenterBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T04:38:21.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConditionWorker.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\App.CoreModules\\Thread\\ConditionWorker.cs",
+              "RelativeDocumentMoniker": "App.CoreModules\\Thread\\ConditionWorker.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\App.CoreModules\\Thread\\ConditionWorker.cs",
+              "RelativeToolTip": "App.CoreModules\\Thread\\ConditionWorker.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAQwE0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T06:15:21.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WorkerManager.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\App.CoreModules\\Thread\\WorkerManager.cs",
+              "RelativeDocumentMoniker": "App.CoreModules\\Thread\\WorkerManager.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\App.CoreModules\\Thread\\WorkerManager.cs",
+              "RelativeToolTip": "App.CoreModules\\Thread\\WorkerManager.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T06:15:51.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ArrayChangedEventArgs.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Application.MVP\\Evemts\\ArrayChangedEventArgs.cs",
+              "RelativeDocumentMoniker": "Application.MVP\\Evemts\\ArrayChangedEventArgs.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Application.MVP\\Evemts\\ArrayChangedEventArgs.cs",
+              "RelativeToolTip": "Application.MVP\\Evemts\\ArrayChangedEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T06:19:26.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomPropertyChangedEventArgs.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Application.MVP\\Evemts\\CustomPropertyChangedEventArgs.cs",
+              "RelativeDocumentMoniker": "Application.MVP\\Evemts\\CustomPropertyChangedEventArgs.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Application.MVP\\Evemts\\CustomPropertyChangedEventArgs.cs",
+              "RelativeToolTip": "Application.MVP\\Evemts\\CustomPropertyChangedEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T06:19:38.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PresenterBase.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Application.MVP\\Presenter\\PresenterBase.cs",
+              "RelativeDocumentMoniker": "Application.MVP\\Presenter\\PresenterBase.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Application.MVP\\Presenter\\PresenterBase.cs",
+              "RelativeToolTip": "Application.MVP\\Presenter\\PresenterBase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:16:24.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IPresenterView.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\App.MVP.NetFramework\\View\\IPresenterView.cs",
+              "RelativeDocumentMoniker": "App.MVP.NetFramework\\View\\IPresenterView.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\App.MVP.NetFramework\\View\\IPresenterView.cs",
+              "RelativeToolTip": "App.MVP.NetFramework\\View\\IPresenterView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T04:38:20.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.MVP",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Application.MVP\\App.MVP.csproj",
+              "RelativeDocumentMoniker": "Application.MVP\\App.MVP.csproj",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Application.MVP\\App.MVP.csproj",
+              "RelativeToolTip": "Application.MVP\\App.MVP.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-24T04:35:11.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RibbonWindow.xaml",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor\\Views\\RibbonWindow.xaml",
+              "RelativeDocumentMoniker": "Editor\\Views\\RibbonWindow.xaml",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor\\Views\\RibbonWindow.xaml",
+              "RelativeToolTip": "Editor\\Views\\RibbonWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-15T05:02:54.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DevMirror.xaml",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor\\Views\\DevMirror.xaml",
+              "RelativeDocumentMoniker": "Editor\\Views\\DevMirror.xaml",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor\\Views\\DevMirror.xaml",
+              "RelativeToolTip": "Editor\\Views\\DevMirror.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-15T05:02:52.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SqlExecutor.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\ADO\\DataBase\\SqlExecutor.cs",
+              "RelativeDocumentMoniker": "Modules\\ADO\\DataBase\\SqlExecutor.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\ADO\\DataBase\\SqlExecutor.cs",
+              "RelativeToolTip": "Modules\\ADO\\DataBase\\SqlExecutor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:42:13.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RibbonWindow.xaml.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor\\Views\\RibbonWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Editor\\Views\\RibbonWindow.xaml.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor\\Views\\RibbonWindow.xaml.cs",
+              "RelativeToolTip": "Editor\\Views\\RibbonWindow.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAWwAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T00:21:14.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IPresenterView.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Application.MVP\\View\\IPresenterView.cs",
+              "RelativeDocumentMoniker": "Application.MVP\\View\\IPresenterView.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Application.MVP\\View\\IPresenterView.cs",
+              "RelativeToolTip": "Application.MVP\\View\\IPresenterView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:59:17.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SqlExecutor.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\ADO\\DataBase\\SqlExecutor.cs",
+              "RelativeDocumentMoniker": "Modules\\ADO\\DataBase\\SqlExecutor.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\ADO\\DataBase\\SqlExecutor.cs",
+              "RelativeToolTip": "Modules\\ADO\\DataBase\\SqlExecutor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:04:55.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DMLParser.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\ADO\\Parser\\DMLParser.cs",
+              "RelativeDocumentMoniker": "Modules\\ADO\\Parser\\DMLParser.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\ADO\\Parser\\DMLParser.cs",
+              "RelativeToolTip": "Modules\\ADO\\Parser\\DMLParser.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:04:57.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\MyModule\\Program.cs",
+              "RelativeDocumentMoniker": "MyModule\\Program.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\MyModule\\Program.cs",
+              "RelativeToolTip": "MyModule\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:43:22.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ISupportDataContext.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor.Core\\ISupportDataContext.cs",
+              "RelativeDocumentMoniker": "Editor.Core\\ISupportDataContext.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor.Core\\ISupportDataContext.cs",
+              "RelativeToolTip": "Editor.Core\\ISupportDataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T05:04:10.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Step2View.xaml",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\DeviceWizard\\Views\\Step2View.xaml",
+              "RelativeDocumentMoniker": "DeviceWizard\\Views\\Step2View.xaml",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\DeviceWizard\\Views\\Step2View.xaml",
+              "RelativeToolTip": "DeviceWizard\\Views\\Step2View.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-15T05:04:27.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SQLCachedManager.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\ADO\\SQLCachedManager.cs",
+              "RelativeDocumentMoniker": "Modules\\ADO\\SQLCachedManager.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\ADO\\SQLCachedManager.cs",
+              "RelativeToolTip": "Modules\\ADO\\SQLCachedManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:05:02.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DMLParser.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\ADO\\Parser\\DMLParser.cs",
+              "RelativeDocumentMoniker": "Modules\\ADO\\Parser\\DMLParser.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\ADO\\Parser\\DMLParser.cs",
+              "RelativeToolTip": "Modules\\ADO\\Parser\\DMLParser.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:42:22.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SQLCachedManager.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\ADO\\SQLCachedManager.cs",
+              "RelativeDocumentMoniker": "Modules\\ADO\\SQLCachedManager.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\ADO\\SQLCachedManager.cs",
+              "RelativeToolTip": "Modules\\ADO\\SQLCachedManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:42:37.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationCommand.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor.Core\\ApplicationCommand.cs",
+              "RelativeDocumentMoniker": "Editor.Core\\ApplicationCommand.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor.Core\\ApplicationCommand.cs",
+              "RelativeToolTip": "Editor.Core\\ApplicationCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T05:04:11.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RegionNames.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor.Core\\RegionNames.cs",
+              "RelativeDocumentMoniker": "Editor.Core\\RegionNames.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor.Core\\RegionNames.cs",
+              "RelativeToolTip": "Editor.Core\\RegionNames.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T05:04:12.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor.Core\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "Editor.Core\\ViewModelBase.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor.Core\\ViewModelBase.cs",
+              "RelativeToolTip": "Editor.Core\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T05:04:12.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Step1View.xaml",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\DeviceWizard\\Views\\Step1View.xaml",
+              "RelativeDocumentMoniker": "DeviceWizard\\Views\\Step1View.xaml",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\DeviceWizard\\Views\\Step1View.xaml",
+              "RelativeToolTip": "DeviceWizard\\Views\\Step1View.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-15T05:04:18.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainWizardView.xaml",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\DeviceWizard\\Views\\MainWizardView.xaml",
+              "RelativeDocumentMoniker": "DeviceWizard\\Views\\MainWizardView.xaml",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\DeviceWizard\\Views\\MainWizardView.xaml",
+              "RelativeToolTip": "DeviceWizard\\Views\\MainWizardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-15T05:04:24.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MMasterClientTest.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\MyModule\\MMasterClientTest.cs",
+              "RelativeDocumentMoniker": "MyModule\\MMasterClientTest.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\MyModule\\MMasterClientTest.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "MyModule\\MMasterClientTest.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T05:02:44.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MotionTab.xaml.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor\\PageGroup\\MotionTab.xaml.cs",
+              "RelativeDocumentMoniker": "Editor\\PageGroup\\MotionTab.xaml.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor\\PageGroup\\MotionTab.xaml.cs",
+              "RelativeToolTip": "Editor\\PageGroup\\MotionTab.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T22:55:36.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PLCTab.xaml",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor\\PageGroup\\PLCTab.xaml",
+              "RelativeDocumentMoniker": "Editor\\PageGroup\\PLCTab.xaml",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor\\PageGroup\\PLCTab.xaml",
+              "RelativeToolTip": "Editor\\PageGroup\\PLCTab.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-07T22:55:12.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MotionTab.xaml",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor\\PageGroup\\MotionTab.xaml",
+              "RelativeDocumentMoniker": "Editor\\PageGroup\\MotionTab.xaml",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor\\PageGroup\\MotionTab.xaml",
+              "RelativeToolTip": "Editor\\PageGroup\\MotionTab.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-07T22:54:18.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor\\App.xaml",
+              "RelativeDocumentMoniker": "Editor\\App.xaml",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor\\App.xaml",
+              "RelativeToolTip": "Editor\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-05T00:29:58.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "App.g.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor\\obj\\Debug\\App.g.cs",
+              "RelativeDocumentMoniker": "Editor\\obj\\Debug\\App.g.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor\\obj\\Debug\\App.g.cs",
+              "RelativeToolTip": "Editor\\obj\\Debug\\App.g.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAWwD8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T00:14:30.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RibbonWindowViewModel.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor\\ViewModels\\RibbonWindowViewModel.cs",
+              "RelativeDocumentMoniker": "Editor\\ViewModels\\RibbonWindowViewModel.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor\\ViewModels\\RibbonWindowViewModel.cs",
+              "RelativeToolTip": "Editor\\ViewModels\\RibbonWindowViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T01:21:59.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DeviceTab.xaml",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor\\PageGroup\\DeviceTab.xaml",
+              "RelativeDocumentMoniker": "Editor\\PageGroup\\DeviceTab.xaml",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor\\PageGroup\\DeviceTab.xaml",
+              "RelativeToolTip": "Editor\\PageGroup\\DeviceTab.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-03T01:12:35.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Editor\\App.xaml.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor\\App.xaml.cs",
+              "RelativeToolTip": "Editor\\App.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T01:03:55.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PLCTab.xaml.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor\\PageGroup\\PLCTab.xaml.cs",
+              "RelativeDocumentMoniker": "Editor\\PageGroup\\PLCTab.xaml.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor\\PageGroup\\PLCTab.xaml.cs",
+              "RelativeToolTip": "Editor\\PageGroup\\PLCTab.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:00:21.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DevRibbonControlRegionAdapter.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor\\Core\\Adapters\\DevRibbonControlRegionAdapter.cs",
+              "RelativeDocumentMoniker": "Editor\\Core\\Adapters\\DevRibbonControlRegionAdapter.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor\\Core\\Adapters\\DevRibbonControlRegionAdapter.cs",
+              "RelativeToolTip": "Editor\\Core\\Adapters\\DevRibbonControlRegionAdapter.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwCkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T01:03:44.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "XGTFrameSchema.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\02.Parsers\\FrameSchemas\\XGTFrameSchema.cs",
+              "RelativeDocumentMoniker": "Modules\\02.Parsers\\FrameSchemas\\XGTFrameSchema.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\02.Parsers\\FrameSchemas\\XGTFrameSchema.cs",
+              "RelativeToolTip": "Modules\\02.Parsers\\FrameSchemas\\XGTFrameSchema.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T01:45:59.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DeviceWizardModule.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\DeviceWizard\\DeviceWizardModule.cs",
+              "RelativeDocumentMoniker": "DeviceWizard\\DeviceWizardModule.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\DeviceWizard\\DeviceWizardModule.cs",
+              "RelativeToolTip": "DeviceWizard\\DeviceWizardModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T01:49:36.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AjinPciN804.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\Motors\\Ajin\\PCI\\AjinPciN804.cs",
+              "RelativeDocumentMoniker": "Modules\\Devices\\Motors\\Ajin\\PCI\\AjinPciN804.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\Motors\\Ajin\\PCI\\AjinPciN804.cs",
+              "RelativeToolTip": "Modules\\Devices\\Motors\\Ajin\\PCI\\AjinPciN804.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T00:14:23.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AjinPciN404.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\Motors\\Ajin\\PCI\\AjinPciN404.cs",
+              "RelativeDocumentMoniker": "Modules\\Devices\\Motors\\Ajin\\PCI\\AjinPciN404.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\Motors\\Ajin\\PCI\\AjinPciN404.cs",
+              "RelativeToolTip": "Modules\\Devices\\Motors\\Ajin\\PCI\\AjinPciN404.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T00:14:16.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AjinPciN204.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\Motors\\Ajin\\PCI\\AjinPciN204.cs",
+              "RelativeDocumentMoniker": "Modules\\Devices\\Motors\\Ajin\\PCI\\AjinPciN204.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\Motors\\Ajin\\PCI\\AjinPciN204.cs",
+              "RelativeToolTip": "Modules\\Devices\\Motors\\Ajin\\PCI\\AjinPciN204.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:28:29.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AxisState.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\Motors\\States\\AxisState.cs",
+              "RelativeDocumentMoniker": "Modules\\Devices\\Motors\\States\\AxisState.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\Motors\\States\\AxisState.cs",
+              "RelativeToolTip": "Modules\\Devices\\Motors\\States\\AxisState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:23:31.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "MotionState.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\Motors\\States\\MotionState.cs",
+              "RelativeDocumentMoniker": "Modules\\Devices\\Motors\\States\\MotionState.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\Motors\\States\\MotionState.cs",
+              "RelativeToolTip": "Modules\\Devices\\Motors\\States\\MotionState.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:21:27.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IMotionAction.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\Motors\\IMotionAction.cs",
+              "RelativeDocumentMoniker": "Modules\\Devices\\Motors\\IMotionAction.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\Motors\\IMotionAction.cs",
+              "RelativeToolTip": "Modules\\Devices\\Motors\\IMotionAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:13:39.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IMotionControl.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\Motors\\IMotionControl.cs",
+              "RelativeDocumentMoniker": "Modules\\Devices\\Motors\\IMotionControl.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\Motors\\IMotionControl.cs",
+              "RelativeToolTip": "Modules\\Devices\\Motors\\IMotionControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:12:29.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IMotionAlarm.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\Motors\\IMotionAlarm.cs",
+              "RelativeDocumentMoniker": "Modules\\Devices\\Motors\\IMotionAlarm.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\Motors\\IMotionAlarm.cs",
+              "RelativeToolTip": "Modules\\Devices\\Motors\\IMotionAlarm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:12:24.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IMotionState.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\Motors\\IMotionState.cs",
+              "RelativeDocumentMoniker": "Modules\\Devices\\Motors\\IMotionState.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\Motors\\IMotionState.cs",
+              "RelativeToolTip": "Modules\\Devices\\Motors\\IMotionState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:12:18.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "PLCDevice.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\PLCDevice.cs",
+              "RelativeDocumentMoniker": "Modules\\Devices\\PLCDevice.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\PLCDevice.cs",
+              "RelativeToolTip": "Modules\\Devices\\PLCDevice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:11:05.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CpuTypeExtension.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\Extensions\\CpuTypeExtension.cs",
+              "RelativeDocumentMoniker": "Modules\\Extensions\\CpuTypeExtension.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\Extensions\\CpuTypeExtension.cs",
+              "RelativeToolTip": "Modules\\Extensions\\CpuTypeExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:43:06.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PLCDevice.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\PLCDevice.cs",
+              "RelativeDocumentMoniker": "Modules\\Devices\\PLCDevice.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\Devices\\PLCDevice.cs",
+              "RelativeToolTip": "Modules\\Devices\\PLCDevice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:42:59.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "BitHelper.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\Helper\\BitHelper.cs",
+              "RelativeDocumentMoniker": "Modules\\Helper\\BitHelper.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\Helper\\BitHelper.cs",
+              "RelativeToolTip": "Modules\\Helper\\BitHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:43:10.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CollectionHelper.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\Helper\\CollectionHelper.cs",
+              "RelativeDocumentMoniker": "Modules\\Helper\\CollectionHelper.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\Helper\\CollectionHelper.cs",
+              "RelativeToolTip": "Modules\\Helper\\CollectionHelper.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:43:12.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "DeviceBase.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\Base\\DeviceBase.cs",
+              "RelativeDocumentMoniker": "Modules\\Base\\DeviceBase.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\Base\\DeviceBase.cs",
+              "RelativeToolTip": "Modules\\Base\\DeviceBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:42:51.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "OrderByAttribute.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Modules\\Attributes\\OrderByAttribute.cs",
+              "RelativeDocumentMoniker": "Modules\\Attributes\\OrderByAttribute.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Modules\\Attributes\\OrderByAttribute.cs",
+              "RelativeToolTip": "Modules\\Attributes\\OrderByAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:42:46.924Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

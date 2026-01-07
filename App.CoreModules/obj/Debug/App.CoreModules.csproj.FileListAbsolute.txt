@@ -1,0 +1,12 @@
+D:\MyProject\3.MyModeule\App.CoreModules\bin\Debug\App.CoreModules.dll
+D:\MyProject\3.MyModeule\App.CoreModules\bin\Debug\App.CoreModules.pdb
+D:\MyProject\3.MyModeule\App.CoreModules\obj\Debug\App.CoreModules.csproj.AssemblyReference.cache
+D:\MyProject\3.MyModeule\App.CoreModules\obj\Debug\App.CoreModules.csproj.CoreCompileInputs.cache
+D:\MyProject\3.MyModeule\App.CoreModules\obj\Debug\App.CoreModules.dll
+D:\MyProject\3.MyModeule\App.CoreModules\obj\Debug\App.CoreModules.pdb
+C:\Users\TEST2\Desktop\P26\App.CoreModules\bin\Debug\App.CoreModules.dll
+C:\Users\TEST2\Desktop\P26\App.CoreModules\bin\Debug\App.CoreModules.pdb
+C:\Users\TEST2\Desktop\P26\App.CoreModules\obj\Debug\App.CoreModules.csproj.AssemblyReference.cache
+C:\Users\TEST2\Desktop\P26\App.CoreModules\obj\Debug\App.CoreModules.csproj.CoreCompileInputs.cache
+C:\Users\TEST2\Desktop\P26\App.CoreModules\obj\Debug\App.CoreModules.dll
+C:\Users\TEST2\Desktop\P26\App.CoreModules\obj\Debug\App.CoreModules.pdb

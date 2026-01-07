@@ -1,0 +1,4 @@
+D:\test\Module\MyModule\Modules\bin\Editor\Modules.dll
+D:\test\Module\MyModule\Modules\obj\Editor\00.Modules.csproj.AssemblyReference.cache
+D:\test\Module\MyModule\Modules\obj\Editor\00.Modules.csproj.CoreCompileInputs.cache
+D:\test\Module\MyModule\Modules\obj\Editor\Modules.dll

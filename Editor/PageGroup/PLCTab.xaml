@@ -1,0 +1,26 @@
+﻿<dxr:RibbonPage x:Class="Editor.PageGroup.PLCTab"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+      xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon"
+      xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+      xmlns:local="clr-namespace:Editor.PageGroup"
+      Caption= "PLCTab">
+
+    <dxr:RibbonPageGroup Caption="PLC Editor">
+        <dxb:BarButtonItem Content="ConfigrationView"
+         RibbonStyle="Large"
+         LargeGlyph="/Resource/Motor.png"
+         Glyph="/Resource/Motor.png"
+         Command="{Binding OpenWizardCommand}">
+        </dxb:BarButtonItem>
+
+        <dxb:BarButtonItem Content="AxisView"
+         RibbonStyle="Large"
+         LargeGlyph="{dx:DXImage Image=Save_32x32.png}"
+         Glyph="{dx:DXImage Image=Save_16x16.png}"
+         Command="{Binding OpenWizardCommand}">
+        </dxb:BarButtonItem>
+    </dxr:RibbonPageGroup>
+    
+</dxr:RibbonPage>

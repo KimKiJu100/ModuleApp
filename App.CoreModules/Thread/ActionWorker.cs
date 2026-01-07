@@ -1,0 +1,61 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace App.CoreModules.Thread
+{
+    public class ActionWorker<TActionParamType> : WorkerBase
+    {
+        private readonly Action<TActionParamType> _action;
+        private readonly TimeSpan _interval;
+
+        private CancellationTokenSource _cts;
+
+        private TActionParamType _paramType;
+
+        private Task task;
+
+        public ActionWorker(Action<TActionParamType> action,
+                             TimeSpan interval)
+        {
+            _action = action;
+            _interval = interval;
+        }
+
+        public void SetActionParams(TActionParamType paramType)
+        {
+            _paramType = paramType;
+        }
+
+        public override async Task StartAsync()
+        {
+            if (IsRunning) return;
+            if (_paramType == null) throw new ArgumentException("_paramType를 설정 하지 않고 worker를 실행하려고 했습니다.");
+
+            _cts = new CancellationTokenSource();
+            IsRunning = true;
+            try
+            {
+                task = Task.Run(() =>
+                {
+                    _action(_paramType);
+                }, _cts.Token);
+                
+                await task;
+            }
+            finally
+            {
+                IsRunning = false;
+                OnCompleted(this);
+            }
+        }
+        public override void TaskStop()
+        {
+            _cts.Cancel();
+        }
+
+    }
+}

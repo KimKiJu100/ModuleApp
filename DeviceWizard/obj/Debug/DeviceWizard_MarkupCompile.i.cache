@@ -16,5 +16,5 @@ DEBUG;TRACE
 29-254117149
 Views\MainWizardView.xaml;Views\Step1View.xaml;Views\Step2View.xaml;
 
-False
+True
 

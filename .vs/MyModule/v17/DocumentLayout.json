@@ -250,8 +250,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ActionWorker.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\App.CoreModules\\Thread\\ActionWorker.cs",
+              "RelativeDocumentMoniker": "App.CoreModules\\Thread\\ActionWorker.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\App.CoreModules\\Thread\\ActionWorker.cs",
+              "RelativeToolTip": "App.CoreModules\\Thread\\ActionWorker.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAADAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T06:51:06.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ArrayChangedEventArgs.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Application.MVP\\Evemts\\ArrayChangedEventArgs.cs",
+              "RelativeDocumentMoniker": "Application.MVP\\Evemts\\ArrayChangedEventArgs.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Application.MVP\\Evemts\\ArrayChangedEventArgs.cs",
+              "RelativeToolTip": "Application.MVP\\Evemts\\ArrayChangedEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T06:19:26.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomPropertyChangedEventArgs.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Application.MVP\\Evemts\\CustomPropertyChangedEventArgs.cs",
+              "RelativeDocumentMoniker": "Application.MVP\\Evemts\\CustomPropertyChangedEventArgs.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Application.MVP\\Evemts\\CustomPropertyChangedEventArgs.cs",
+              "RelativeToolTip": "Application.MVP\\Evemts\\CustomPropertyChangedEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T06:19:38.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PresenterBase.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Application.MVP\\Presenter\\PresenterBase.cs",
+              "RelativeDocumentMoniker": "Application.MVP\\Presenter\\PresenterBase.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Application.MVP\\Presenter\\PresenterBase.cs",
+              "RelativeToolTip": "Application.MVP\\Presenter\\PresenterBase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:16:24.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.MVP",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Application.MVP\\App.MVP.csproj",
+              "RelativeDocumentMoniker": "Application.MVP\\App.MVP.csproj",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Application.MVP\\App.MVP.csproj",
+              "RelativeToolTip": "Application.MVP\\App.MVP.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-24T04:35:11.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IPresenterView.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Application.MVP\\View\\IPresenterView.cs",
+              "RelativeDocumentMoniker": "Application.MVP\\View\\IPresenterView.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Application.MVP\\View\\IPresenterView.cs",
+              "RelativeToolTip": "Application.MVP\\View\\IPresenterView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:59:17.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "App.g.cs",
+              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor\\obj\\Debug\\App.g.cs",
+              "RelativeDocumentMoniker": "Editor\\obj\\Debug\\App.g.cs",
+              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor\\obj\\Debug\\App.g.cs",
+              "RelativeToolTip": "Editor\\obj\\Debug\\App.g.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAWwD8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T00:14:30.949Z"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
@@ -267,19 +355,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T07:11:26.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ActionWorker.cs",
-              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\App.CoreModules\\Thread\\ActionWorker.cs",
-              "RelativeDocumentMoniker": "App.CoreModules\\Thread\\ActionWorker.cs",
-              "ToolTip": "D:\\MyProject\\3.MyModeule\\App.CoreModules\\Thread\\ActionWorker.cs",
-              "RelativeToolTip": "App.CoreModules\\Thread\\ActionWorker.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T06:51:06.973Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -355,42 +430,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ArrayChangedEventArgs.cs",
-              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Application.MVP\\Evemts\\ArrayChangedEventArgs.cs",
-              "RelativeDocumentMoniker": "Application.MVP\\Evemts\\ArrayChangedEventArgs.cs",
-              "ToolTip": "D:\\MyProject\\3.MyModeule\\Application.MVP\\Evemts\\ArrayChangedEventArgs.cs",
-              "RelativeToolTip": "Application.MVP\\Evemts\\ArrayChangedEventArgs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T06:19:26.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CustomPropertyChangedEventArgs.cs",
-              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Application.MVP\\Evemts\\CustomPropertyChangedEventArgs.cs",
-              "RelativeDocumentMoniker": "Application.MVP\\Evemts\\CustomPropertyChangedEventArgs.cs",
-              "ToolTip": "D:\\MyProject\\3.MyModeule\\Application.MVP\\Evemts\\CustomPropertyChangedEventArgs.cs",
-              "RelativeToolTip": "Application.MVP\\Evemts\\CustomPropertyChangedEventArgs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T06:19:38.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PresenterBase.cs",
-              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Application.MVP\\Presenter\\PresenterBase.cs",
-              "RelativeDocumentMoniker": "Application.MVP\\Presenter\\PresenterBase.cs",
-              "ToolTip": "D:\\MyProject\\3.MyModeule\\Application.MVP\\Presenter\\PresenterBase.cs",
-              "RelativeToolTip": "Application.MVP\\Presenter\\PresenterBase.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T06:16:24.634Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 12,
               "Title": "IPresenterView.cs",
               "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\App.MVP.NetFramework\\View\\IPresenterView.cs",
@@ -400,17 +439,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-24T04:38:20.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "App.MVP",
-              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Application.MVP\\App.MVP.csproj",
-              "RelativeDocumentMoniker": "Application.MVP\\App.MVP.csproj",
-              "ToolTip": "D:\\MyProject\\3.MyModeule\\Application.MVP\\App.MVP.csproj",
-              "RelativeToolTip": "Application.MVP\\App.MVP.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-24T04:35:11.994Z"
             },
             {
               "$type": "Document",
@@ -457,18 +485,6 @@
               "ViewState": "AgIAAAQAAAAAAAAAAAAWwAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T00:21:14.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IPresenterView.cs",
-              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Application.MVP\\View\\IPresenterView.cs",
-              "RelativeDocumentMoniker": "Application.MVP\\View\\IPresenterView.cs",
-              "ToolTip": "D:\\MyProject\\3.MyModeule\\Application.MVP\\View\\IPresenterView.cs",
-              "RelativeToolTip": "Application.MVP\\View\\IPresenterView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T06:59:17.799Z"
             },
             {
               "$type": "Document",
@@ -678,18 +694,6 @@
               "RelativeToolTip": "Editor\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-05T00:29:58.262Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "App.g.cs",
-              "DocumentMoniker": "D:\\MyProject\\3.MyModeule\\Editor\\obj\\Debug\\App.g.cs",
-              "RelativeDocumentMoniker": "Editor\\obj\\Debug\\App.g.cs",
-              "ToolTip": "D:\\MyProject\\3.MyModeule\\Editor\\obj\\Debug\\App.g.cs",
-              "RelativeToolTip": "Editor\\obj\\Debug\\App.g.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAWwD8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T00:14:30.949Z"
             },
             {
               "$type": "Document",

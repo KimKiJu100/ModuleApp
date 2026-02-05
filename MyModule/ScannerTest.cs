@@ -15,6 +15,7 @@ using System.Linq;
 using System.Runtime.Remoting.Contexts;
 using System.Runtime.Remoting.Lifetime;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -33,12 +34,11 @@ namespace MyModule
             _workerMenager = new WorkerManager();
         }
 
-
         private void CreateStateWorker()
         {
             var con = new ConnectionRule(comContext);
             //var retry = new RetryConnection(comContext);
-            var work = new StateCheckWorker(con,null, null, new TimeSpan(1000));
+            var work = new StateCheckWorker(con, null, null, new TimeSpan(1000));
             work.OnStateChanged += OnStateChange;
             _workerMenager.SetWorker("ConnectionCheckingWorker", work);
         }
@@ -49,8 +49,19 @@ namespace MyModule
                 pnl_ConnectionState.BackColor = Color.Lime;
             }
             else {
-                comContext.DisConnection();
-                pnl_ConnectionState.BackColor = Color.Gray;
+                try
+                {
+                    //여기가 진짜 연결을 클로즈한건지 비상으로 끊긴건지 확인이 필요함.
+                    comContext.DisConnection();
+                    TargetWorkerStopAsync("ConnectionCheckingWorker");
+                    pnl_ConnectionState.BackColor = Color.Gray;
+                    //Thread.Sleep(1000);
+                    //comContext.Connection();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
         }
 
@@ -75,21 +86,20 @@ namespace MyModule
 
                 if (ConnectionFlg)
                 {
-                    receivedMemo.AppendText($"연결 성공 상태  : {ConnectionFlg}");
+                    receivedMemo.AppendText($"연결 성공 - 상태  : {ConnectionFlg}\r\n");
                     CreateStateWorker();
                     TargetWorkerStartAsync("ConnectionCheckingWorker");
                 }
                 else
                 {
-                    receivedMemo.AppendText($"연결 성공 실패  : {ConnectionFlg}");
+                    receivedMemo.AppendText($"연결 실패 - 상태 : {ConnectionFlg}\r\n");
                     TargetWorkerStopAsync("ConnectionCheckingWorker");
                 }
             }
             catch (Exception ex)
             {
-                receivedMemo.AppendText($"연결 성공 실패  : {ex.Message}");
+                receivedMemo.AppendText($"연결 성공 실패  : {ex.Message}\r\n");
             }
-            
         }
 
         private void receiveFramePacket(object sender,string receiveData)
@@ -143,6 +153,16 @@ namespace MyModule
         private void ScannerTest_FormClosed(object sender, FormClosedEventArgs e)
         {
             comContext.Dispose();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            using (var dlg = new WorkerManagerView(_workerMenager,200))
+            {
+                if (dlg.ShowDialog() == DialogResult.OK)
+                {
+                }
+            }
         }
     }
 }

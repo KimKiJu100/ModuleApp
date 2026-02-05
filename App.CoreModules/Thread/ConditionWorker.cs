@@ -12,12 +12,15 @@ namespace App.CoreModules.Thread
         private readonly TimeSpan _interval;
         private CancellationTokenSource _cts;
 
-        public override string InstanceKey { get; set; } = string.Empty;
-        public override bool IsRunning { get; protected set; }
-
         private double _minValue, _maxValue = 0;
         private double _currentValue = 0;
         private bool _oneFlag = false;
+
+        private string _conditionName;
+
+        public override string InstanceKey { get; set; } = string.Empty;
+        
+        public override string ActionName { get => _conditionName; }
 
         public ConditionWorker(
             Func<double, double, double, bool> condition,
@@ -28,6 +31,7 @@ namespace App.CoreModules.Thread
             _condition = condition ?? throw new ArgumentNullException(nameof(condition));
             _successAction = successAction ?? throw new ArgumentNullException(nameof(successAction));
             _scanningAction = ScanningAction ?? throw new ArgumentNullException(nameof(ScanningAction));
+            _conditionName = condition.Method.Name;
             _interval = interval ?? TimeSpan.FromMilliseconds(200);
         }
         public void SetCondition(double minValue, double maxValue)

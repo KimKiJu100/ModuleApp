@@ -12,10 +12,14 @@ namespace MyModule.State
     public class ConnectionRule : IConditionRule
     {
         private readonly ComunicationContext _targetContext;
+
+        public string RuleName => nameof(ConnectionRule);
+
         public ConnectionRule(ComunicationContext targetContext)
         {
             this._targetContext = targetContext;
         }
+
         public bool Check()
         {
             return this._targetContext.GetConnection();

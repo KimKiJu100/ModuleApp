@@ -1,4 +1,5 @@
-﻿using App.CoreModules.Thread.Base;
+﻿using App.CoreModules.Models;
+using App.CoreModules.Thread.Base;
 using App.CoreModules.Thread.Base.Interfaces;
 using System;
 using System.Collections.Concurrent;
@@ -68,6 +69,14 @@ namespace App.CoreModules.Thread
             var targetWorker = _workers.FirstOrDefault(w => w.InstanceKey == key);
             return targetWorker; 
         }
+        public List<WorkerInfor> GetInoformationWorkers()
+        {
+            List<WorkerInfor> infors = new List<WorkerInfor>();
+            _workers.ForEach( worker => {
+                infors.Add(new WorkerInfor { WorkerName = worker.InstanceKey ,  State = worker.IsRunning ? "IsRunning": "IsStop", ActionMethod = worker.ActionName });
+            });
+            return infors;
+        }
         public void TargetWorkerStart(string key)
         {
             var targetWorker = _workers.FirstOrDefault(w => w.InstanceKey == key);
@@ -110,12 +119,6 @@ namespace App.CoreModules.Thread
         {
             _workers.ForEach(worker => worker.TaskStop());
         }
-        //이부분은 외부에서 언박싱후 처리하는게 맞아 
-        //public void workerCurrentValueSet(string key, double value)
-        //{
-        //    var targetWorker = _workers.FirstOrDefault(w => w.InstanceKey == key);
-        //    targetWorker.SetCurrentValue(value);
-        //}
 
         public void workerAllClear()
         {

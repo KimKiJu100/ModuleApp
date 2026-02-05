@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace App.CoreModules.Thread
 {
-    public class FuncWorker<TPlayLoad,TResponse> : WorkerRequestBase<TPlayLoad, TResponse>, IGenaricWorkerAction
+    public class FuncWorker<TPlayLoad,TResponse> : WorkerRequestBase<TPlayLoad, TResponse>
     {
         private readonly Func<TResponse> _func;
         private readonly TimeSpan _interval;

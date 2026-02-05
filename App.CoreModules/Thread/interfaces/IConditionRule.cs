@@ -8,6 +8,7 @@ namespace App.CoreModules
 {
     public interface IConditionRule
     {
+        string RuleName { get; }
         bool Check();   
     }
 }

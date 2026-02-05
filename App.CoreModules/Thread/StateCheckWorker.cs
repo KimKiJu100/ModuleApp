@@ -18,11 +18,12 @@ namespace App.CoreModules.Thread
         private CancellationTokenSource _cts;
 
         public EventHandler<bool> OnStateChanged;
-
         private bool stateChanged = false;
 
+        private string _conditionName = string.Empty;
+
         public override string InstanceKey { get; set; } = string.Empty;
-        public override bool IsRunning { get; protected set; }
+        public override string ActionName => _conditionName;
 
         public StateCheckWorker(
             IConditionRule conditionRule = null,
@@ -34,6 +35,8 @@ namespace App.CoreModules.Thread
             _successAction = success;
             _scanningAction = scanning;
             _interval = interval ?? TimeSpan.FromMilliseconds(200);
+
+            _conditionName = _conditionRule.RuleName;
         }
 
         public override async Task StartAsync()

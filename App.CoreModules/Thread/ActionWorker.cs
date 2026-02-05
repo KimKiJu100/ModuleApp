@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace App.CoreModules.Thread
 {
-    public class ActionWorker<TActionParamType> : WorkerBase , IGenaricWorkerAction
+    public class ActionWorker<TActionParamType> : WorkerBase 
     {
         private readonly Action<TActionParamType> _action;
         private readonly TimeSpan _interval;
@@ -18,7 +18,7 @@ namespace App.CoreModules.Thread
         private Task task;
 
         private string _actionName = string.Empty;                  //메소드 이름 정보
-        public string ActionName { get => _actionName; }
+        public override string ActionName { get => _actionName; }
 
         public ActionWorker(Action<TActionParamType> action,
                              TimeSpan interval)

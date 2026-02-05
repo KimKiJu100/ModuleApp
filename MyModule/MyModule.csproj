@@ -77,6 +77,12 @@
     <Compile Include="CommunicationUI\ucTCPClientParams.Designer.cs">
       <DependentUpon>ucTCPClientParams.cs</DependentUpon>
     </Compile>
+    <Compile Include="CommunicationUI\WorkerManagerView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommunicationUI\WorkerManagerView.Designer.cs">
+      <DependentUpon>WorkerManagerView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Event\ComunicationParamOKEventArgs.cs" />
     <Compile Include="MMasterClientTest.cs">
       <SubType>Form</SubType>
@@ -109,6 +115,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CommunicationUI\ucTCPClientParams.resx">
       <DependentUpon>ucTCPClientParams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommunicationUI\WorkerManagerView.resx">
+      <DependentUpon>WorkerManagerView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MMasterClientTest.resx">
       <DependentUpon>MMasterClientTest.cs</DependentUpon>

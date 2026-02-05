@@ -8,9 +8,6 @@ namespace Modules.Communication.Sender.Strategies
     {
         public bool CanHandle(CommParamBase param) => param is SerialParams;
 
-        public ICommunicationSender Create()
-        {
-            throw new NotImplementedException();
-        }
+        public ICommunicationSender Create() => new Serial232Sender();
     }
 }

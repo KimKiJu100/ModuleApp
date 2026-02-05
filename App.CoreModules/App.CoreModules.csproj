@@ -42,11 +42,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Events\ConditionWorkerEventArgs.cs" />
+    <Compile Include="Events\ExceptionEventArgs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Thread\ActionWorker.cs" />
+    <Compile Include="Thread\Base\Interfaces\IWorkerRequest.cs" />
     <Compile Include="Thread\Base\WorkerBase.cs" />
+    <Compile Include="Thread\Base\WorkerRequest.cs" />
+    <Compile Include="Thread\Base\WorkerRequestBase.cs" />
     <Compile Include="Thread\ConditionWorker.cs" />
+    <Compile Include="Thread\FuncWorker.cs" />
+    <Compile Include="Thread\interfaces\IConditionAction.cs" />
+    <Compile Include="Thread\interfaces\IConditionRule.cs" />
+    <Compile Include="Thread\interfaces\IGenaricWorkerAction.cs" />
+    <Compile Include="Thread\StateCheckWorker.cs" />
     <Compile Include="Thread\WorkerManager.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -45,6 +45,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="00.Communication\State\Base\CommunicationStateBase.cs" />
+    <Compile Include="00.Communication\State\Serial232State.cs" />
+    <Compile Include="00.Communication\State\Strategies\ICommunicationStaterStrategy.cs" />
+    <Compile Include="00.Communication\State\Strategies\SerialStateStrategy.cs" />
+    <Compile Include="00.Communication\State\Strategies\TCPClientStateStrategy.cs" />
+    <Compile Include="00.Communication\State\TCPClientSocketState.cs" />
+    <Compile Include="00.Communication\Intefaces\IComunicationState.cs" />
     <Compile Include="01.Protocol\Base\PacketBase.cs" />
     <Compile Include="02.Parsers\Base\ParserParamBase.cs" />
     <Compile Include="02.Parsers\Context\ParserContext.cs" />

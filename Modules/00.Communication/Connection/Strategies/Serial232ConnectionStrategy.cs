@@ -10,7 +10,7 @@ namespace Modules.Communication.Connection.Strategies
 
         public ICommunicationConnection Create()
         {
-            throw new NotImplementedException();
+            return new Serial232Connection();
         }
     }
 }

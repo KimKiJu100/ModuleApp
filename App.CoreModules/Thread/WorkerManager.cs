@@ -1,4 +1,6 @@
-﻿using System;
+﻿using App.CoreModules.Thread.Base;
+using App.CoreModules.Thread.Base.Interfaces;
+using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,8 +34,8 @@ namespace App.CoreModules.Thread
                     var target = _workers.FirstOrDefault(w => w.InstanceKey == key);
                     if (target != null)
                     {
-                        target.TaskStop();
                         target.Completed -= OnCompleted;
+                        target.Dispose(); 
                         _workers.Remove(target);
                         WorkerRemoved?.Invoke(this, new ConditionWorkerEventArgs(target));
                     }
@@ -77,6 +79,28 @@ namespace App.CoreModules.Thread
             var targetWorker = _workers.FirstOrDefault(w => w.InstanceKey == key);
             if (targetWorker != null)
                 targetWorker.TaskStop();
+        }
+
+        public async Task<TResponse> TargetWorkerStartRequest<TPayLoad,TResponse>(string key, WorkerRequest<TPayLoad, TResponse> request) 
+            where TPayLoad : class
+        {
+            var targetWorker = _workers.FirstOrDefault(w => w.InstanceKey == key);
+            if (targetWorker != null)
+            {
+                targetWorker.StartAsync();
+                if (targetWorker is IWorkerRequest<TResponse> requestWorker)
+                {
+                    return await requestWorker.RequestAsync(request.Command, request.RequestPayLoad);
+                }
+                else
+                {
+                    throw new InvalidCastException("해당 Worker는 RequestResponse 구조가 아닙니다.");
+                }
+            }
+            else
+            {
+                throw new InvalidCastException("키에 해당되는 Task는 없습니다.");
+            }
         }
         public void workerAllStart()
         {

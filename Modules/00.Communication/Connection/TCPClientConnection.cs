@@ -16,7 +16,6 @@ namespace Modules.Communication.Connection
     public class TCPClientConnection : ConnectionBase
     {
         private Socket _soc;
-        private readonly object _lock = new object();
 
         public TCPClientConnection()
         {
@@ -60,6 +59,22 @@ namespace Modules.Communication.Connection
                 if (!_soc.Connected) return true;
                 _soc.Disconnect(true);
                 return true;
+            }
+        }
+
+        protected override void Dispose(bool disposing) 
+        {
+            if (!disposedValue)
+            {
+                if (disposing)
+                {
+                    // TODO: 관리형 상태(관리형 개체)를 삭제합니다.
+                    _soc = null;
+                }
+
+                // TODO: 비관리형 리소스(비관리형 개체)를 해제하고 종료자를 재정의합니다.
+                // TODO: 큰 필드를 null로 설정합니다.
+                disposedValue = true;
             }
         }
     }

@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace Modules.Communication.Intefaces
 {
-    public interface ICommunicationSender : ITypeBasedInjectable
+    public interface ICommunicationSender : ITypeBasedInjectable , IDisposable
     {
         void Send(byte[] data);
+        void Send(string data);
     }
 }

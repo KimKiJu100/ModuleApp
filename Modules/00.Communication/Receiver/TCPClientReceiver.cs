@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Sockets;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -42,6 +43,20 @@ namespace Modules.Communication.Receiver
             }
         }
 
+        public override void ReceiveRemoveSet()
+        {
+            if (_soc == null)
+                throw new Exception("SerialPort 인스턴스가 설정되지 않았습니다. SetInstance 먼저 호출하세요.");
+
+            //이벤트 해제
+            if (_receiveEventArgs != null)
+            {
+                _receiveEventArgs.Completed -= OnReceiveCompleted;
+                _receiveEventArgs.Dispose();
+                _receiveEventArgs = null;
+            }
+        }
+
         private void OnReceiveCompleted(object sender, SocketAsyncEventArgs e)
         {
             if (e.BytesTransferred > 0 && e.SocketError == SocketError.Success)
@@ -62,5 +77,25 @@ namespace Modules.Communication.Receiver
             else
                 throw new Exception("Error - Disconnected from server.");
         }
+
+        protected override void Dispose(bool disposing)
+        {
+            if (!disposedValue)
+            {
+                if (disposing)
+                {
+                    // TODO: 관리형 상태(관리형 개체)를 삭제합니다.
+                    _receiveEventArgs.Completed -= OnReceiveCompleted;
+                    _receiveEventArgs = null;
+                    _soc = null;
+                }
+
+                // TODO: 비관리형 리소스(비관리형 개체)를 해제하고 종료자를 재정의합니다.
+                // TODO: 큰 필드를 null로 설정합니다.
+                disposedValue = true;
+            }
+        }
+
+
     }
 }

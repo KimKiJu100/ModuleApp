@@ -1,4 +1,6 @@
-﻿using Modules.Communication.Connection.Strategies;
+﻿using Modules._00.Communication.State;
+using Modules._00.Communication.State.Strategies;
+using Modules.Communication.Connection.Strategies;
 using Modules.Communication.Intefaces;
 using Modules.Communication.Params;
 using Modules.Communication.Receiver.Strategies;
@@ -18,6 +20,7 @@ namespace Modules.Communication.Factory
         private readonly List<ICommunicationSenderStrategy> _senderStrategyCollection;
         private readonly List<ICommunicationReceiverStrategy> _receiveStrategyCollection;
         private readonly List<ICommunicationConnectionStrategy> _connectionStrategyCollection;
+        private readonly List<ICommunicationStaterStrategy> _stateStrategyCollection;
 
         public CommunicationFactory()
         {
@@ -25,6 +28,7 @@ namespace Modules.Communication.Factory
             _senderStrategyCollection = CollectionHelper.LoadStrategies<ICommunicationSenderStrategy>();
             _receiveStrategyCollection = CollectionHelper.LoadStrategies<ICommunicationReceiverStrategy>();
             _connectionStrategyCollection = CollectionHelper.LoadStrategies<ICommunicationConnectionStrategy>();
+            _stateStrategyCollection = CollectionHelper.LoadStrategies<ICommunicationStaterStrategy>();
         }
 
         public TypeBase CreateCommunicationInstance(CommParamBase param)
@@ -56,6 +60,15 @@ namespace Modules.Communication.Factory
         public ICommunicationReceiver CreateReceiver(CommParamBase param)
         {
             var strategy = _receiveStrategyCollection.FirstOrDefault(s => s.CanHandle(param));
+            if (strategy != null)
+                return strategy.Create();
+
+            throw new ArgumentException("지원하지 않는 통신 파라미터입니다.");
+        }
+
+        public IComunicationState CreateState(CommParamBase param)
+        {
+            var strategy = _stateStrategyCollection.FirstOrDefault(s => s.CanHandle(param));
             if (strategy != null)
                 return strategy.Create();
 

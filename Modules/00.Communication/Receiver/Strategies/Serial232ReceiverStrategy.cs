@@ -8,10 +8,7 @@ namespace Modules.Communication.Receiver.Strategies
     {
         public bool CanHandle(CommParamBase param) => param is SerialParams;
 
-        public ICommunicationReceiver Create()
-        {
-            throw new NotImplementedException();
-        }
+        public ICommunicationReceiver Create() => new Serial232Receiver();
 
         //public ICommunicationReceiver Create() => new Serial232Receiver();
     }

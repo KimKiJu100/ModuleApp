@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App.CoreModules.Thread.interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,22 +8,24 @@ using System.Threading.Tasks;
 
 namespace App.CoreModules.Thread
 {
-    public class ActionWorker<TActionParamType> : WorkerBase
+    public class ActionWorker<TActionParamType> : WorkerBase , IGenaricWorkerAction
     {
         private readonly Action<TActionParamType> _action;
         private readonly TimeSpan _interval;
 
         private CancellationTokenSource _cts;
-
         private TActionParamType _paramType;
-
         private Task task;
+
+        private string _actionName = string.Empty;                  //메소드 이름 정보
+        public string ActionName { get => _actionName; }
 
         public ActionWorker(Action<TActionParamType> action,
                              TimeSpan interval)
         {
             _action = action;
             _interval = interval;
+            _actionName = _action.Method.Name;
         }
 
         public void SetActionParams(TActionParamType paramType)
@@ -55,7 +58,15 @@ namespace App.CoreModules.Thread
         public override void TaskStop()
         {
             _cts.Cancel();
+            OnCanceled(this);
         }
-
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                _cts.Cancel();
+            }
+            base.Dispose(disposing);
+        }
     }
 }

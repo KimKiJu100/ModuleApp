@@ -8,11 +8,10 @@ using System.Threading.Tasks;
 
 namespace Modules.Communication.Intefaces
 {
-    public interface ICommunicationConnection : ITypeBasedInjectable
+    public interface ICommunicationConnection : ITypeBasedInjectable , IDisposable
     {
         bool Connection();                  //초기 설정
         bool Connection(CommParamBase param);                  //파라미터로 초기 설정 
-
         bool DisConnection();
     }
 }

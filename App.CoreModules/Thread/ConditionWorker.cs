@@ -51,7 +51,7 @@ namespace App.CoreModules.Thread
             IsRunning = true;
             try
             {
-                await Task.Run(async () =>
+                task = Task.Run(async () =>
                 {
                     while (!_cts.Token.IsCancellationRequested)
                     {
@@ -75,6 +75,7 @@ namespace App.CoreModules.Thread
                         await Task.Delay(_interval, _cts.Token);
                     }
                 });
+                await task;
             }
             finally
             {

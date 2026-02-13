@@ -11,7 +11,7 @@ namespace Modules._00.Communication.State.Strategies
 {
     public class TCPClientStateStrategy : ICommunicationStaterStrategy
     {
-        public bool CanHandle(CommParamBase param) => param is SerialParams;
+        public bool CanHandle(CommParamBase param) => param is SocketParams;
 
         public IComunicationState Create() => new TCPClientSocketState();
     }

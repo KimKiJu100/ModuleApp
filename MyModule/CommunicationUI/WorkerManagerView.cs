@@ -1,4 +1,5 @@
-﻿using App.CoreModules.Thread;
+﻿using App.CoreModules.Models;
+using App.CoreModules.Thread;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,6 +19,8 @@ namespace MyModule.CommunicationUI
         private readonly int _msInterval;
         private Task task;
         private CancellationTokenSource _cts;
+
+        private List<WorkerInfor> PrevWorkerInfor = null;
 
         public WorkerManagerView(WorkerManager manager, int BackgroundInterval = 10)
         {
@@ -45,20 +48,22 @@ namespace MyModule.CommunicationUI
         {
             try
             {
-
                 while (!_cts.IsCancellationRequested)
                 {
-                    var WorkerInforCollection = _manager.GetInoformationWorkers();
-
-                    if (gridViewTaskManager.InvokeRequired)
+                    if (PrevWorkerInfor == null)
                     {
-                        gridViewTaskManager.BeginInvoke(new Action(() =>
-                        {
-                            gridViewTaskManager.DataSource = WorkerInforCollection;
-                        }));
+                        PrevWorkerInfor = _manager.GetInoformationWorkers();
+                        GridWorkerBinding(PrevWorkerInfor);
                     }
                     else
-                        gridViewTaskManager.DataSource = WorkerInforCollection;
+                    {
+                        var WorkerInforCollection = _manager.GetInoformationWorkers();
+                        if (!PrevWorkerInfor.SequenceEqual(WorkerInforCollection))
+                        {
+                            PrevWorkerInfor = WorkerInforCollection;
+                            GridWorkerBinding(WorkerInforCollection);
+                        }
+                    }
 
                     await Task.Delay(_msInterval,_cts.Token);
                 }
@@ -67,6 +72,19 @@ namespace MyModule.CommunicationUI
             {
                 
             }
+        }
+
+        private void GridWorkerBinding(IEnumerable<WorkerInfor> Collection)
+        {
+            if (gridViewTaskManager.InvokeRequired)
+            {
+                gridViewTaskManager.BeginInvoke(new Action(() =>
+                {
+                    gridViewTaskManager.DataSource = Collection;
+                }));
+            }
+            else
+                gridViewTaskManager.DataSource = Collection;
         }
 
         private void WorkerManagerView_FormClosing(object sender, FormClosingEventArgs e)

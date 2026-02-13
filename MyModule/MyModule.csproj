@@ -104,7 +104,9 @@
     <Compile Include="ScannerTest.Designer.cs">
       <DependentUpon>ScannerTest.cs</DependentUpon>
     </Compile>
-    <Compile Include="ScannerTestbehavior.cs" />
+    <Compile Include="ScannerTestbehavior.cs">
+	<DependentUpon>ScannerTest.cs</DependentUpon>    
+    </Compile>
     <Compile Include="SocketDriver.cs" />
     <Compile Include="State\ConnectionRule.cs" />
     <EmbeddedResource Include="CommunicationUI\CommunicationParamForm.resx">

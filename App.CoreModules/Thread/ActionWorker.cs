@@ -15,7 +15,6 @@ namespace App.CoreModules.Thread
 
         private CancellationTokenSource _cts;
         private TActionParamType _paramType;
-        private Task task;
 
         private string _actionName = string.Empty;                  //메소드 이름 정보
         public override string ActionName { get => _actionName; }

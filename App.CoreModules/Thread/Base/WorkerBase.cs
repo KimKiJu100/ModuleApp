@@ -9,12 +9,20 @@ namespace App.CoreModules.Thread
     {
         private bool disposedValue;
 
+        public Task task;
+
         public virtual string InstanceKey { get; set; }
         public virtual bool IsRunning { get; protected set; }
         public virtual string ActionName { get; }
 
         public virtual async Task StartAsync() { }
         public virtual void TaskStop() { }
+
+        public virtual void Wait()
+        {
+            if (task is null) throw new Exception("Worker에 해당 Task를 설정하지 않았습니다.");
+            task?.Wait();
+        }
 
         #region Event 정의
         public event EventHandler Completed;
@@ -27,6 +35,7 @@ namespace App.CoreModules.Thread
         {
             Canceled?.Invoke(InvokeInstance, EventArgs.Empty);
         }
+        #endregion
 
         #region Dispose 패턴
         protected virtual void Dispose(bool disposing)
@@ -36,6 +45,7 @@ namespace App.CoreModules.Thread
                 if (disposing)
                 {
                     // TODO: 관리형 상태(관리형 개체)를 삭제합니다.
+                    task = null;
                 }
 
                 // TODO: 비관리형 리소스(비관리형 개체)를 해제하고 종료자를 재정의합니다.
@@ -58,6 +68,5 @@ namespace App.CoreModules.Thread
             GC.SuppressFinalize(this);
         }
         #endregion Dispose 패턴
-        #endregion
     }
 }

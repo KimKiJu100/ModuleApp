@@ -16,7 +16,6 @@ namespace App.CoreModules.Thread.Base
     {
         private readonly ConcurrentQueue<WorkerRequest<TPayLoad, TResponse>> _requests = new ConcurrentQueue<WorkerRequest<TPayLoad, TResponse>>();
         private CancellationTokenSource _cts;
-        private Task _loopTask;
 
         public EventHandler<ExceptionEventArgs> exceptionErrorError;
         public WorkerRequestBase()
@@ -27,7 +26,7 @@ namespace App.CoreModules.Thread.Base
         public override Task StartAsync()
         {
             _cts = new CancellationTokenSource();
-            _loopTask = Task.Run(() => ExecuteLoop(_cts.Token));
+            task = Task.Run(() => ExecuteLoopAsync(_cts.Token));
             return Task.CompletedTask;
         }
 
@@ -49,7 +48,7 @@ namespace App.CoreModules.Thread.Base
             return req.Response.Task; 
         }
 
-        private async Task ExecuteLoop(CancellationToken token)
+        private async Task ExecuteLoopAsync(CancellationToken token)
         {
             while (!token.IsCancellationRequested)
             {
@@ -57,7 +56,7 @@ namespace App.CoreModules.Thread.Base
                 {
                     try
                     {
-                        var result = await HandleRequestAsync(req.Command);
+                        var result = await HandleRequest(req.Command);
                         req.Response.SetResult(result);
                     }
                     catch (Exception ex)
@@ -73,7 +72,7 @@ namespace App.CoreModules.Thread.Base
             }
         }
 
-        protected abstract Task<TResponse> HandleRequestAsync(string command);
+        protected abstract Task<TResponse> HandleRequest(string command);
 
         protected override void Dispose(bool disposing)
         {

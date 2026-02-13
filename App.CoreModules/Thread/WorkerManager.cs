@@ -1,4 +1,5 @@
-﻿using App.CoreModules.Models;
+﻿using App.CoreModules.Extensions;
+using App.CoreModules.Models;
 using App.CoreModules.Thread.Base;
 using App.CoreModules.Thread.Base.Interfaces;
 using System;
@@ -96,9 +97,11 @@ namespace App.CoreModules.Thread
             var targetWorker = _workers.FirstOrDefault(w => w.InstanceKey == key);
             if (targetWorker != null)
             {
-                targetWorker.StartAsync();
+                //Task LoopAgin
+                await targetWorker.StartAsync();
                 if (targetWorker is IWorkerRequest<TResponse> requestWorker)
                 {
+                    //외부 실행자 Task or UI스레드
                     return await requestWorker.RequestAsync(request.Command, request.RequestPayLoad);
                 }
                 else
@@ -119,10 +122,16 @@ namespace App.CoreModules.Thread
         {
             _workers.ForEach(worker => worker.TaskStop());
         }
-
         public void workerAllClear()
         {
             _workers.ForEach(worker => _removeQueue.Enqueue(worker.InstanceKey));
+        }
+
+
+        public async Task WaitWorker(IEnumerable<WorkerBase> workers)
+        {
+            var taks = workers.ToList().ToWorkerBaseTask();
+            await Task.WhenAll(taks);
         }
     }
 }

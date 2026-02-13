@@ -26,7 +26,7 @@ namespace App.CoreModules.Thread
             InstanceKey = nameof(FuncWorker<TPlayLoad,TResponse>);
         }
 
-        protected override Task<TResponse> HandleRequestAsync(string command)
+        protected override Task<TResponse> HandleRequest(string command)
         {
             if (command == "Invoke")
             {

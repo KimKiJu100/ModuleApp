@@ -56,14 +56,15 @@ namespace App.CoreModules.Thread
         }
         public override void TaskStop()
         {
-            _cts.Cancel();
+            _cts?.Cancel();
             OnCanceled(this);
         }
         protected override void Dispose(bool disposing)
         {
             if (disposing)
             {
-                _cts.Cancel();
+                _cts?.Cancel();
+                _cts?.Dispose();
             }
             base.Dispose(disposing);
         }

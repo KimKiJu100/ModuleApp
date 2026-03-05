@@ -1,4 +1,4 @@
-﻿using App.CoreModules;
+﻿using App.CoreModules.Thread.interfaces;
 using Modules.Communication.Context;
 using Modules.Communication.Type;
 using System;

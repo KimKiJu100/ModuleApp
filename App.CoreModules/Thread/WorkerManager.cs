@@ -10,10 +10,11 @@ using System.Threading.Tasks;
 
 namespace App.CoreModules.Thread
 {
-    public class WorkerManager
+    public class WorkerManager : IDisposable
     {
-        private List<WorkerBase> _workers;
+        private readonly ConcurrentDictionary<string, WorkerBase> _workers = new ConcurrentDictionary<string, WorkerBase>();
         private readonly ConcurrentQueue<string> _removeQueue = new ConcurrentQueue<string>();
+        private bool _disposed;
 
         public bool IsRunning { get; private set; }
 
@@ -33,12 +34,10 @@ namespace App.CoreModules.Thread
             {
                 while (_removeQueue.TryDequeue(out var key))
                 {
-                    var target = _workers.FirstOrDefault(w => w.InstanceKey == key);
-                    if (target != null)
+                    if (_workers.TryRemove(key, out var target))
                     {
                         target.Completed -= OnCompleted;
-                        target.Dispose(); 
-                        _workers.Remove(target);
+                        target.Dispose();
                         WorkerRemoved?.Invoke(this, new ConditionWorkerEventArgs(target));
                     }
                 }
@@ -48,90 +47,92 @@ namespace App.CoreModules.Thread
 
         public WorkerManager()
         {
-            _workers = new List<WorkerBase>();
             IsRunning = true;
             Task.Run(CleanupLoop);
         }
 
         public void SetWorker(string keyName, WorkerBase worker)
         {
-            //중복 차단
-            if (_workers.Any(w => w.InstanceKey == keyName)) return; 
-
             worker.InstanceKey = keyName;
             worker.Completed += OnCompleted;
 
-            _workers.Add(worker);
+            if (!_workers.TryAdd(keyName, worker))
+            {
+                // 중복 차단 - 이미 등록된 키
+                worker.Completed -= OnCompleted;
+                return;
+            }
 
-            WorkerAdded?.Invoke(this, new ConditionWorkerEventArgs(_workers));
+            WorkerAdded?.Invoke(this, new ConditionWorkerEventArgs(worker));
         }
         public WorkerBase GetWorker(string key)
         {
-            var targetWorker = _workers.FirstOrDefault(w => w.InstanceKey == key);
-            return targetWorker; 
+            _workers.TryGetValue(key, out var worker);
+            return worker;
         }
-        public List<WorkerInfor> GetInoformationWorkers()
+        public List<WorkerInfo> GetInformationWorkers()
         {
-            List<WorkerInfor> infors = new List<WorkerInfor>();
-            _workers.ForEach( worker => {
-                infors.Add(new WorkerInfor { WorkerName = worker.InstanceKey ,  State = worker.IsRunning ? "IsRunning": "IsStop", ActionMethod = worker.ActionName });
-            });
+            List<WorkerInfo> infors = new List<WorkerInfo>();
+            foreach (var worker in _workers.Values)
+            {
+                infors.Add(new WorkerInfo { WorkerName = worker.InstanceKey, State = worker.IsRunning ? "IsRunning" : "IsStop", ActionMethod = worker.ActionName });
+            }
             return infors;
         }
         public void TargetWorkerStart(string key)
         {
-            var targetWorker = _workers.FirstOrDefault(w => w.InstanceKey == key);
-            if(targetWorker != null)
+            if (_workers.TryGetValue(key, out var targetWorker))
                 targetWorker.StartAsync();
         }
         public void TargetWorkerStop(string key)
         {
-            var targetWorker = _workers.FirstOrDefault(w => w.InstanceKey == key);
-            if (targetWorker != null)
+            if (_workers.TryGetValue(key, out var targetWorker))
                 targetWorker.TaskStop();
         }
 
-        public async Task<TResponse> TargetWorkerStartRequest<TPayLoad,TResponse>(string key, WorkerRequest<TPayLoad, TResponse> request) 
+        public async Task<TResponse> TargetWorkerStartRequest<TPayLoad, TResponse>(string key, WorkerRequest<TPayLoad, TResponse> request)
             where TPayLoad : class
         {
-            var targetWorker = _workers.FirstOrDefault(w => w.InstanceKey == key);
-            if (targetWorker != null)
+            if (!_workers.TryGetValue(key, out var targetWorker))
+                throw new InvalidOperationException("키에 해당되는 Task는 없습니다.");
+
+            //Task LoopAgin
+            await targetWorker.StartAsync();
+            if (targetWorker is IWorkerRequest<TResponse> requestWorker)
             {
-                //Task LoopAgin
-                await targetWorker.StartAsync();
-                if (targetWorker is IWorkerRequest<TResponse> requestWorker)
-                {
-                    //외부 실행자 Task or UI스레드
-                    return await requestWorker.RequestAsync(request.Command, request.RequestPayLoad);
-                }
-                else
-                {
-                    throw new InvalidCastException("해당 Worker는 RequestResponse 구조가 아닙니다.");
-                }
+                //외부 실행자 Task or UI스레드
+                return await requestWorker.RequestAsync(request.Command, request.RequestPayLoad);
             }
             else
             {
-                throw new InvalidCastException("키에 해당되는 Task는 없습니다.");
+                throw new InvalidCastException("해당 Worker는 RequestResponse 구조가 아닙니다.");
             }
         }
         public void workerAllStart()
         {
-            _workers.ForEach(worker => worker.StartAsync());
+            foreach (var worker in _workers.Values) worker.StartAsync();
         }
         public void workerAllStop()
         {
-            _workers.ForEach(worker => worker.TaskStop());
+            foreach (var worker in _workers.Values) worker.TaskStop();
         }
         public void workerAllClear()
         {
-            _workers.ForEach(worker => _removeQueue.Enqueue(worker.InstanceKey));
+            foreach (var key in _workers.Keys) _removeQueue.Enqueue(key);
         }
-
 
         public async Task WaitWorker(IEnumerable<WorkerBase> workers)
         {
-            var taks = workers.ToList().ToWorkerBaseTask();
-            await Task.WhenAll(taks);
+            var tasks = workers.ToList().ToWorkerBaseTask();
+            await Task.WhenAll(tasks);
+        }
+
+        public void Dispose()
+        {
+            if (_disposed) return;
+            _disposed = true;
+            IsRunning = false;
+            workerAllClear();
         }
     }
 }

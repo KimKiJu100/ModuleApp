@@ -17,7 +17,7 @@ namespace MyModule
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ScannerTest());
+            Application.Run(new PdfLoadTest());
         }
     }
 }

@@ -20,7 +20,7 @@ namespace MyModule.CommunicationUI
         private Task task;
         private CancellationTokenSource _cts;
 
-        private List<WorkerInfor> PrevWorkerInfor = null;
+        private List<WorkerInfo> PrevWorkerInfo = null;
 
         public WorkerManagerView(WorkerManager manager, int BackgroundInterval = 10)
         {
@@ -50,18 +50,18 @@ namespace MyModule.CommunicationUI
             {
                 while (!_cts.IsCancellationRequested)
                 {
-                    if (PrevWorkerInfor == null)
+                    if (PrevWorkerInfo == null)
                     {
-                        PrevWorkerInfor = _manager.GetInoformationWorkers();
-                        GridWorkerBinding(PrevWorkerInfor);
+                        PrevWorkerInfo = _manager.GetInformationWorkers();
+                        GridWorkerBinding(PrevWorkerInfo);
                     }
                     else
                     {
-                        var WorkerInforCollection = _manager.GetInoformationWorkers();
-                        if (!PrevWorkerInfor.SequenceEqual(WorkerInforCollection))
+                        var WorkerInfoCollection = _manager.GetInformationWorkers();
+                        if (!PrevWorkerInfo.SequenceEqual(WorkerInfoCollection))
                         {
-                            PrevWorkerInfor = WorkerInforCollection;
-                            GridWorkerBinding(WorkerInforCollection);
+                            PrevWorkerInfo = WorkerInfoCollection;
+                            GridWorkerBinding(WorkerInfoCollection);
                         }
                     }
 
@@ -74,7 +74,7 @@ namespace MyModule.CommunicationUI
             }
         }
 
-        private void GridWorkerBinding(IEnumerable<WorkerInfor> Collection)
+        private void GridWorkerBinding(IEnumerable<WorkerInfo> Collection)
         {
             if (gridViewTaskManager.InvokeRequired)
             {

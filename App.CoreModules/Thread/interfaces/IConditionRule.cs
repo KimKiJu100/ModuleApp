@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App.CoreModules
+namespace App.CoreModules.Thread.interfaces
 {
     public interface IConditionRule
     {

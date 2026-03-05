@@ -36,7 +36,7 @@ namespace App.CoreModules.Thread
             _scanningAction = scanning;
             _interval = interval ?? TimeSpan.FromMilliseconds(200);
 
-            _conditionName = _conditionRule.RuleName;
+            _conditionName = _conditionRule?.RuleName ?? string.Empty;
         }
 
         public override async Task StartAsync()
@@ -81,7 +81,7 @@ namespace App.CoreModules.Thread
 
         public override void TaskStop()
         {
-            _cts.Cancel();
+            _cts?.Cancel();
             OnCanceled(this);
         }
 
@@ -89,7 +89,8 @@ namespace App.CoreModules.Thread
         {
             if (disposing)
             {
-                _cts.Cancel();
+                _cts?.Cancel();
+                _cts?.Dispose();
             }
             base.Dispose(disposing);
         }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App.CoreModules.Thread.interfaces
+namespace App.CoreModules.Thread.Interfaces
 {
-    public interface IGenaricWorkerAction
+    public interface IGenericWorkerAction
     {
         string ActionName { get; }
     }

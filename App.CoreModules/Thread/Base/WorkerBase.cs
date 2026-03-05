@@ -1,15 +1,15 @@
-﻿using App.CoreModules.Thread.interfaces;
+﻿using App.CoreModules.Thread.Interfaces;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace App.CoreModules.Thread
 {
-    public class WorkerBase : IConditionWorkerInfo , IGenaricWorkerAction, IDisposable
+    public class WorkerBase : IConditionWorkerInfo, IGenericWorkerAction, IDisposable
     {
         private bool disposedValue;
 
-        public Task task;
+        protected internal Task task;
 
         public virtual string InstanceKey { get; set; }
         public virtual bool IsRunning { get; protected set; }

@@ -9,21 +9,21 @@ using System.Threading.Tasks;
 
 namespace App.CoreModules.Thread
 {
-    public class FuncWorker<TPlayLoad,TResponse> : WorkerRequestBase<TPlayLoad, TResponse>
+    public class FuncWorker<TPayLoad, TResponse> : WorkerRequestBase<TPayLoad, TResponse>
     {
         private readonly Func<TResponse> _func;
         private readonly TimeSpan _interval;
 
         private string _actionName = string.Empty;                  //메소드 이름 정보
-        public string ActionName { get => _actionName; }
+        public override string ActionName { get => _actionName; }
 
         public FuncWorker(Func<TResponse> func,
-                             TimeSpan interval)
+                             TimeSpan interval) 
         {
             _func = func;
             _interval = interval;
             _actionName = func.Method.Name;
-            InstanceKey = nameof(FuncWorker<TPlayLoad,TResponse>);
+            InstanceKey = nameof(FuncWorker<TPayLoad,TResponse>);
         }
 
         protected override Task<TResponse> HandleRequest(string command)

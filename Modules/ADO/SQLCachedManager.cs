@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace Modules.ADO
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class SQLCachedManager
     {
         private readonly string _targetSourcePath;

@@ -17,7 +17,7 @@ namespace MyModule
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PdfLoadTest());
+            Application.Run(new DataBaseForm());
         }
     }
 }

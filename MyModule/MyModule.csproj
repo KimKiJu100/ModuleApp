@@ -120,6 +120,12 @@
     <Compile Include="CommunicationUI\WorkerManagerView.Designer.cs">
       <DependentUpon>WorkerManagerView.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataBaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataBaseForm.Designer.cs">
+      <DependentUpon>DataBaseForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Event\ComunicationParamOKEventArgs.cs" />
     <Compile Include="MMasterClientTest.cs">
       <SubType>Form</SubType>
@@ -163,6 +169,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CommunicationUI\WorkerManagerView.resx">
       <DependentUpon>WorkerManagerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataBaseForm.resx">
+      <DependentUpon>DataBaseForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MMasterClientTest.resx">
       <DependentUpon>MMasterClientTest.cs</DependentUpon>

@@ -16,7 +16,7 @@ namespace Modules.ADO.DataBase
         {
             _connectionString = connectionString;
         }
-
+        //Read
         public DataTable ExecuteQuery(string sql, Dictionary<string, object> parameters)
         {
             using (var conn = new SqlConnection(_connectionString))
@@ -33,6 +33,41 @@ namespace Modules.ADO.DataBase
                 adapter.Fill(result);
 
                 return result;
+            }
+        }
+        //Create, Update, Delete
+        public int ExecuteNonQuery(string sql, Dictionary<string, object> parameters)
+        {
+            using (var conn = new SqlConnection(_connectionString))
+            {
+                var cmd = new SqlCommand(sql, conn);
+
+                foreach (var param in parameters)
+                {
+                    cmd.Parameters.AddWithValue("@" + param.Key, param.Value ?? DBNull.Value);
+                }
+
+                conn.Open();
+                return cmd.ExecuteNonQuery(); 
+            }
+        }
+
+        //단일 데이터
+        public object ExecuteScalar(string sql, Dictionary<string, object> parameters)
+        {
+            using (var conn = new SqlConnection(_connectionString))
+            using (var cmd = new SqlCommand(sql, conn))
+            {
+                foreach (var param in parameters)
+                {
+                    cmd.Parameters.AddWithValue(
+                        "@" + param.Key,
+                        param.Value ?? DBNull.Value);
+                }
+
+                conn.Open();
+
+                return cmd.ExecuteScalar();
             }
         }
     }
